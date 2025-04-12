@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+header {
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+a {
+  text-decoration: none;
+  color: #0055aa;
+}
+a:hover {
+  text-decoration: underline;
+}
