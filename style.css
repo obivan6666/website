@@ -1,61 +1,90 @@
+/* Grundlegende Styles */
 body {
   margin: 0;
-  font-family: sans-serif;
-  background: #e6eaf0;
-  color: #222;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
 }
+
+/* Header */
 .site-header {
-  background: linear-gradient(#dde5ec, #cfdbe8);
+  background: #dde5ec;
   padding: 20px;
-  border: 5px solid #8b5e3c;
-  background-image: url('wurzelrahmen.jpg');
-  background-size: cover;
+  border-bottom: 4px solid #8b5e3c;
   text-align: center;
 }
-.site-header nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #1a1a1a;
-  font-weight: bold;
+.site-header h1 {
+  margin: 0;
+  font-size: 2em;
 }
-.kategorien {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
-  padding: 40px;
-}
-.kategorie {
+
+/* Navigation */
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 120px;
-  border-radius: 15px;
-  font-size: 1.2em;
-  font-weight: bold;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center right;
-  color: #000;
+  gap: 20px;
+}
+.main-nav ul li {
+  margin: 0;
+}
+.main-nav ul li a {
   text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background 0.3s;
 }
-.kategorie span {
-  background: rgba(255, 255, 255, 0.6);
-  padding: 5px 10px;
-  border-radius: 10px;
+.main-nav ul li a:hover {
+  background: #cfdbe8;
 }
-.kategorie.elektronik {
-  background-color: #f0f0f0;
-  background-image: url('akku_icon.jpg');
+
+/* Hauptinhalt */
+.content {
+  padding: 20px;
+  margin-bottom: 70px; /* Platz für Footer */
 }
-.kategorie.garten {
-  background-color: #e0f7e0;
-  background-image: url('pflanze_icon.jpg');
+
+/* Feedback-Bereich */
+.feedback {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-.kategorie.kunst {
-  background-color: #f7f0e0;
-  background-image: url('pinsel_icon.jpg');
+.feedback h2 {
+  margin-top: 0;
 }
-.kategorie.sonstiges {
-  background-color: #f0e0f7;
-  background-image: url('werkzeug_icon.jpg');
+.feedback form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.feedback form button {
+  margin-top: 10px;
+  background: #8b5e3c;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer */
+.site-footer {
+  background: #cfdbe8;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
