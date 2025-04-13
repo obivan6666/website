@@ -1,89 +1,61 @@
-
 body {
-  font-family: sans-serif;
   margin: 0;
-  background-color: #e0e4ea;
+  font-family: sans-serif;
+  background: #e6eaf0;
   color: #222;
 }
-
-header {
-  background: linear-gradient(to bottom, #cfd4dc, #dfe3e9);
-  border-bottom: 8px solid #5a4c3b;
-  background-image: url("wurzelrahmen.png");
-  background-repeat: repeat-x;
-  padding: 1rem;
+.site-header {
+  background: linear-gradient(#dde5ec, #cfdbe8);
+  padding: 20px;
+  border: 5px solid #8b5e3c;
+  background-image: url('wurzelrahmen.jpg');
+  background-size: cover;
   text-align: center;
 }
-
-header h1 {
-  margin: 0;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 0.5rem;
-}
-
-nav a {
+.site-header nav a {
+  margin: 0 10px;
   text-decoration: none;
-  color: #333;
+  color: #1a1a1a;
   font-weight: bold;
 }
-
 .kategorien {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 40px;
 }
-
 .kategorie {
-  width: 200px;
-  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2rem;
+  height: 120px;
+  border-radius: 15px;
+  font-size: 1.2em;
   font-weight: bold;
-  background-size: cover;
-  background-position: center;
-  border-radius: 12px;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
-}
-
-.kategorie a {
-  color: white;
-  text-shadow: 1px 1px 3px black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+  color: #000;
   text-decoration: none;
 }
-
-.elektronik {
-  background-image: url('bg_platine.jpg');
-  background-color: #4a6c7e;
+.kategorie span {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 5px 10px;
+  border-radius: 10px;
 }
-
-.garten {
-  background-image: url('bg_pflanze.jpg');
-  background-color: #6c8a5e;
+.kategorie.elektronik {
+  background-color: #f0f0f0;
+  background-image: url('akku_icon.jpg');
 }
-
-.kunst {
-  background-image: url('bg_pinsel.jpg');
-  background-color: #b47b7b;
+.kategorie.garten {
+  background-color: #e0f7e0;
+  background-image: url('pflanze_icon.jpg');
 }
-
-.sonstiges {
-  background-image: url('bg_werkzeug.jpg');
-  background-color: #888;
+.kategorie.kunst {
+  background-color: #f7f0e0;
+  background-image: url('pinsel_icon.jpg');
 }
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #cfd4dc;
+.kategorie.sonstiges {
+  background-color: #f0e0f7;
+  background-image: url('werkzeug_icon.jpg');
 }
