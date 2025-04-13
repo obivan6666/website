@@ -2,34 +2,46 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OBIVANS PROJEKTE</title>
+  <title>Obivans Projekte</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
+<div class="page-frame">
+  <header class="page-header">
     <h1>OBIVANS PROJEKTE</h1>
-    <nav class="main-nav">
+    <nav class="top-nav">
       <ul>
         <li><a href="index.html">Hauptseite</a></li>
         <li><a href="coole-links.html">Coole Links</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
-        <li><a href="sprach.html">Sprach</a></li>
       </ul>
     </nav>
   </header>
-  <main class="content">
+  
+  <main>
+    <section class="categories">
+      <article class="category">
+        <img src="images/elektronik_icon.png" alt="Elektronik Symbol">
+        <h2>ELEKTRONIK</h2>
+      </article>
+      <article class="category">
+        <img src="images/kunst_icon.png" alt="Kunst Symbol">
+        <h2>KUNST</h2>
+      </article>
+      <article class="category">
+        <img src="images/garten_icon.png" alt="Garten Symbol">
+        <h2>GARTEN</h2>
+      </article>
+      <article class="category">
+        <img src="images/sonstiges_icon.png" alt="Sonstiges Symbol">
+        <h2>SONSTIGES</h2>
+      </article>
+    </section>
+    
     <section class="feedback">
-      <h2>Fehler? Was kann ich besser machen?</h2>
-      <p>Dein Feedback hilft mir, die Seite zu verbessern. Teile mir mit, was dir auffällt oder was ich optimieren könnte!</p>
-      <form action="feedback.php" method="post">
-        <textarea name="feedback" rows="5" placeholder="Deine Verbesserungsvorschläge..."></textarea>
-        <button type="submit">Abschicken</button>
-      </form>
+      <p>Sag Bescheid, was dir gefällt oder was ich besser machen könnte…</p>
     </section>
   </main>
-  <footer class="site-footer">
-    <p>&copy; 2025 Obivan</p>
-  </footer>
+</div>
 </body>
 </html>
