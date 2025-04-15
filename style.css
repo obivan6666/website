@@ -51,7 +51,7 @@ nav a {
 }
 
 .kategorie img {
-  width: 50px; /* Symbolbreite */
+  width: 70px; /* Symbolbreite */
   vertical-align: middle; /* Zentriert Bild vertikal zum Text */
   margin-right: 20px; /* Abstand rechts vom Bild */
 }
@@ -79,4 +79,4 @@ nav a {
 
   footer { text-align: center; 
    padding: 1rem; 
-   background-color: #cfd4dc; 
+   background-color: #2d2d2d; 
