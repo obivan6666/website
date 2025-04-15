@@ -1,85 +1,71 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #dfe6e3;
-  font-family: 'Verdana', sans-serif;
-  color: #2d2d2d;
-  text-align: center;
+  margin: 0; /* Entfernt Standardabstand außenrum */
+  padding: 0; /* Entfernt Standardinnenabstand */
+  background-color: #dfe6e3; /* Hintergrundfarbe für die ganze Seite */
+  font-family: 'Verdana', sans-serif; /* Schriftart für den Text */
+  color: #2d2d2d; /* Standard-Textfarbe */
+  text-align: center; /* Zentriert den Text */
 }
 
 .rahmen {
-  border: 20px solid transparent;
-  padding: 10px;
-  background: url("stein_hintergrund.jpg") no-repeat center center;
-  background-size: cover;
-  min-height: 100vh;
-  box-sizing: border-box;
+  border: 20px solid transparent; /* Unsichtbarer Rahmen für Abstand */
+  padding: 10px; /* Innenabstand */
+  background: url("stein_hintergrund.jpg") no-repeat center center; /* Hintergrundbild zentriert, nicht wiederholt */
+  background-size: cover; /* Bild skaliert, um gesamten Container zu füllen */
+  min-height: 100vh; /* Mindesthöhe: ganze Bildschirmhöhe */
+  box-sizing: border-box; /* Bezieht Padding und Border in die Breite mit ein */
 }
 
-
 .titel {
-  color: #d3d3d3;
+  color: #d3d3d3; /* Hellgraue Farbe für den Titeltext */
 }
 
 header h1 {
-    margin-top: 100px;
-  font-size: 120px;
-  letter-spacing: 10px;
+  margin-top: 100px; /* Abstand von oben */
+  font-size: 120px; /* Große Schriftgröße für den Titel */
+  letter-spacing: 10px; /* Abstand zwischen Buchstaben */
 }
 
 nav {
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin-top: 30px; /* Abstand oberhalb der Navigation */
+  margin-bottom: 60px; /* Abstand unterhalb der Navigation */
 }
 
 nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #d3d3d3;
-  font-weight: bold;
-  border-bottom: 2px solid #333;
+  margin: 0 10px; /* Abstand links und rechts zwischen den Links */
+  text-decoration: none; /* Unterstreichung entfernen */
+  color: #d3d3d3; /* Hellgraue Schriftfarbe */
+  font-weight: bold; /* Fettschrift */
+  border-bottom: 2px solid #333; /* Unterstrich zur Hervorhebung */
 }
 
 .kategorie {
-  width: 80%;
-  max-width: 500px;
-  margin: 50px auto;
-  padding: 40px;
-  border-radius: 10px;
-  background-color: #f2f2f2;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 80%; /* Breite 80% des Containers */
+  max-width: 500px; /* Maximalbreite 500px */
+  margin: 50px auto; /* Abstand oben/unten und zentriert horizontal */
+  padding: 40px; /* Innenabstand */
+  border-radius: 10px; /* Abgerundete Ecken */
+  background-color: #f2f2f2; /* Hintergrundfarbe der Box */
+  box-shadow: 0 0 5px rgba(0,0,0,0.1); /* Sanfter Schatteneffekt */
 }
 
 .kategorie img {
-  width: 50px;
-  vertical-align: middle;
-  margin-right: 20px;
+  width: 50px; /* Symbolbreite */
+  vertical-align: middle; /* Zentriert Bild vertikal zum Text */
+  margin-right: 20px; /* Abstand rechts vom Bild */
 }
 
 .kategorie a {
-  font-size: 40px;
-  text-decoration: none;
-  color: #2d2d2d;
+  font-size: 40px; /* Große Schrift für Kategorienamen */
+  text-decoration: none; /* Keine Unterstreichung */
+  color: #2d2d2d; /* Dunkle Schriftfarbe */
 }
 
+/* Spezielle Farben für jede Kategorie-Box */
 .elektronik {
-  background-color: #d5dcdc;
+  background-color: #d5dcdc; /* Hellgrau-blau für Elektronik */
 }
 
 .kunst {
-  background-color: #f3f1e5;
-}
-
-.garten {
-  background-color: #d6e8cf;
-}
-
-.sonstiges {
-  background-color: #f0e5cc;
-}
-
-footer {
-  margin-top: 30px;
-  font-size: 16px;
-  color: #d3d3d3;
+  background-color: #f3f1e5; /* Beigeton für Kunst */
 }
