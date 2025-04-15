@@ -53,7 +53,7 @@ nav a {
 .kategorie img {
   width: 70px; /* Symbolbreite */
   vertical-align: middle; /* Zentriert Bild vertikal zum Text */
-  margin-right: 20px; /* Abstand rechts vom Bild */
+  margin-right: 40px; /* Abstand rechts vom Bild */
 }
 
 .kategorie a {
