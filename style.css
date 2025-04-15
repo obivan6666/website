@@ -51,13 +51,13 @@ nav a {
 }
 
 .kategorie img {
-  width: 60px; /* Symbolbreite */
+  width: 50px; /* Symbolbreite */
   vertical-align: middle; /* Zentriert Bild vertikal zum Text */
   margin-right: 20px; /* Abstand rechts vom Bild */
 }
 
 .kategorie a {
-  font-size: 50px; /* Große Schrift für Kategorienamen */
+  font-size: 100px; /* Große Schrift für Kategorienamen */
   text-decoration: none; /* Keine Unterstreichung */
   color: #2d2d2d; /* Dunkle Schriftfarbe */
 }
