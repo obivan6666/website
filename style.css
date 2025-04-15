@@ -37,7 +37,7 @@ nav a {
   color: #d2d2d2; /* Hellgraue Schriftfarbe */
   font-weight: bold; /* Fettschrift */
   border-bottom: 2px solid #333; /* Unterstrich zur Hervorhebung */
-  font-size: 50px; /* oder eine andere Zahl wie 18px, 30px etc. */
+  font-size: 30px; /* oder eine andere Zahl wie 18px, 30px etc. */
 }
 
 .kategorie {
