@@ -21,8 +21,8 @@ body {
 }
 
 header h1 {
-  margin-top: 100px; /* Abstand von oben */
-   font-size: 100px; /* Große Schriftgröße für den Titel */
+  margin-top: 80px; /* Abstand von oben */
+   font-size: 90px; /* Große Schriftgröße für den Titel */
   letter-spacing: 10px; /* Abstand zwischen Buchstaben */
 }
 
@@ -43,8 +43,8 @@ nav a {
 .kategorie {
   width: 80%; /* Breite 80% des Containers */
   max-width: 500px; /* Maximalbreite 500px */
-  margin: 50px auto; /* Abstand oben/unten und zentriert horizontal */
-  padding: 40px; /* Innenabstand */
+  margin: 40px auto; /* Abstand oben/unten und zentriert horizontal */
+  padding: 50px; /* Innenabstand */
   border-radius: 10px; /* Abgerundete Ecken */
   background-color: #f2f2f2; /* Hintergrundfarbe der Box */
   box-shadow: 0 0 5px rgba(0,0,0,0.1); /* Sanfter Schatteneffekt */
