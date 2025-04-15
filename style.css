@@ -34,7 +34,7 @@ nav {
 nav a {
   margin: 0 30px; /* Abstand links und rechts zwischen den Links */
   text-decoration: none; /* Unterstreichung entfernen */
-   font-size: 120px; /* Große Schriftgröße für den Titel */
+   font-size: 30px; /* Große Schriftgröße für den Titel */
   color: #d3d3d3; /* Hellgraue Schriftfarbe */
   font-weight: bold; /* Fettschrift */
   border-bottom: 2px solid #333; /* Unterstrich zur Hervorhebung */
