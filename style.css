@@ -57,7 +57,7 @@ nav a {
 }
 
 .kategorie a {
-  font-size: 100px; /* Große Schrift für Kategorienamen */
+  font-size: 40px; /* Große Schrift für Kategorienamen */
   text-decoration: none; /* Keine Unterstreichung */
   color: #2d2d2d; /* Dunkle Schriftfarbe */
 }
