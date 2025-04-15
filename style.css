@@ -70,3 +70,13 @@ nav a {
 .kunst {
   background-color: #f3f1e5; /* Beigeton für Kunst */
 }
+
+.garten {
+  background-color: #f3f1e5; /* Beigeton für garten */
+
+.sonstiges {
+  background-color: #f3f1e5; /* Beigeton für sonstiges */
+
+  footer { text-align: center; 
+   padding: 1rem; 
+   background-color: #cfd4dc; 
