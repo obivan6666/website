@@ -42,7 +42,7 @@ nav a {
 
 .kategorie {
   width: 80%; /* Breite 80% des Containers */
-  max-width: 500px; /* Maximalbreite 500px */
+  max-width: 200px; /* Maximalbreite 500px */
   margin: 50px auto; /* Abstand oben/unten und zentriert horizontal */
   padding: 40px; /* Innenabstand */
   border-radius: 10px; /* Abgerundete Ecken */
