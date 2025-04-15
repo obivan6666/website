@@ -10,7 +10,7 @@ body {
 .rahmen {
   border: 20px solid transparent;
   padding: 10px;
-  background: url("rahmen_holz.png") no-repeat center center;
+  background: url("stein_hintergrund.jpg") no-repeat center center;
   background-size: cover;
   min-height: 100vh;
   box-sizing: border-box;
