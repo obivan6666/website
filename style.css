@@ -17,7 +17,7 @@ body {
 }
 
 .titel {
-  color: #d3d3d3; /* Hellgraue Farbe für den Titeltext */
+  color: #d2d2d2; /* Hellgraue Farbe für den Titeltext */
 }
 
 header h1 {
@@ -35,7 +35,7 @@ nav a {
   margin: 0 30px; /* Abstand links und rechts zwischen den Links */
   text-decoration: none; /* Unterstreichung entfernen */
    font-size: 30px; /* Große Schriftgröße für den Titel */
-  color: #d3d3d3; /* Hellgraue Schriftfarbe */
+  color: #d2d2d2; /* Hellgraue Schriftfarbe */
   font-weight: bold; /* Fettschrift */
   border-bottom: 2px solid #333; /* Unterstrich zur Hervorhebung */
   font-size: 24px; /* oder eine andere Zahl wie 18px, 30px etc. */
