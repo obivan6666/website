@@ -27,8 +27,8 @@ header h1 {
 }
 
 nav {
-  margin-top: 60px; /* Abstand oberhalb der Navigation */
-  margin-bottom: 90px; /* Abstand unterhalb der Navigation */
+  margin-top: 10px; /* Abstand oberhalb der Navigation */
+  margin-bottom: 20px; /* Abstand unterhalb der Navigation */
 }
 
 nav a {
