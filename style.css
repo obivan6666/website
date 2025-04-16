@@ -72,11 +72,11 @@ nav a {
 }
 
 .garten {
-  background-color: #f3f1e5; /* Beigeton für garten */
+  background-color: #d6e8cf; /* Beigeton für garten */
 
 .sonstiges {
-  background-color: #f3f1e5; /* Beigeton für sonstiges */
+  background-color: #f0e5cc; /* Beigeton für sonstiges */
 
   footer { text-align: center; 
    padding: 1rem; 
-   background-color: #2d2d2d; 
+   background-color: #f0e5cc; 
