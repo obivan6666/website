@@ -43,7 +43,7 @@ nav a {
 .kategorie {
   width: 80%; /* Breite 80% des Containers */
   max-width: 400px; /* Maximalbreite 500px */
-  margin: 40px auto; /* Abstand oben/unten und zentriert horizontal */
+  margin: 30px auto; /* Abstand oben/unten und zentriert horizontal */
   padding: 50px; /* Innenabstand */
   border-radius: 10px; /* Abgerundete Ecken */
   background-color: #f2f2f2; /* Hintergrundfarbe der Box */
@@ -53,7 +53,7 @@ nav a {
 .kategorie img {
   width: 70px; /* Symbolbreite */
   vertical-align: middle; /* Zentriert Bild vertikal zum Text */
-  margin-right: 30px; /* Abstand rechts vom Bild */
+  margin-right: 40px; /* Abstand rechts vom Bild */
 }
 
 .kategorie a {
