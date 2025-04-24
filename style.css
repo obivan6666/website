@@ -87,7 +87,7 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     .kategorie {
-        grid-template-columns: 1fr; /* Eine Spalte auf kleinen Bildschirmen */
+        grid-template-columns: 2fr; /* Eine Spalte auf kleinen Bildschirmen */
     }
 
     .titel {
