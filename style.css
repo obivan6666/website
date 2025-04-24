@@ -51,8 +51,8 @@ body {
 .kategorie {
     display: grid; /* Grid-Layout für die Kategorien */
     grid-template-columns: repeat(2, 2fr); /* Zwei Spalten mit gleichmäßiger Verteilung */
-    gap: 20px; /* Abstand zwischen den Grid-Elementen */
-    padding: 20px; /* Innenabstand */
+    gap: 10px; /* Abstand zwischen den Grid-Elementen */
+    padding: 10px; /* Innenabstand */
 }
 
 .kategorie div {
