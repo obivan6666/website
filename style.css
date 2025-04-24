@@ -30,7 +30,6 @@ body {
     display: flex; /* Flexbox-Layout für die Navigation */
     justify-content: center; /* Zentriert die Navigation horizontal */
     gap: 20px; /* Abstand zwischen den Navigationselementen */
-    margin-top: 10px; /* Abstand nach oben */ 
 
 }
 
@@ -50,7 +49,8 @@ body {
 }
 
 main {
-    width: calc(30% + 30px); /* Breite des Main-Bereichs: 30% der Elternbreite plus 30px */
+    margin-top: 10px; /* Abstand nach oben */ 
+   /* width: calc(30% + 30px); /* Breite des Main-Bereichs: 30% der Elternbreite plus 30px */
     margin: 0 auto; /* Zentriert den Main-Bereich horizontal */
 }
 .kategorie {
@@ -101,7 +101,7 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     .kategorie {
-        grid-template-columns: 1fr 1fr; /* Eine Spalte auf kleinen Bildschirmen */
+        grid-template-columns:  1fr; /* Eine Spalte auf kleinen Bildschirmen */
     }
 
     .titel {
