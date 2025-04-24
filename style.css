@@ -57,7 +57,10 @@ body {
 }
 
 .kategorie div {
-    text-align: center; /* Zentriert den Text innerhalb der Kategorie */
+    display: flex; /* Flexbox-Layout für die Kategorie-Elemente */
+    flex-direction: column; /* Stapelt die Inhalte vertikal (Bild oben, Link unten) */
+    align-items: center; /* Zentriert die Inhalte horizontal */
+    text-align: center; /* Zentriert den Text */
     border-radius: 10px; /* Abgerundete Ecken */
     padding: 10px; /* Innenabstand */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Leichter Schatteneffekt */
