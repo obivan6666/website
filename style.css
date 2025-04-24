@@ -61,23 +61,29 @@ body {
     flex-direction: column; /* Stapelt die Inhalte vertikal (Bild oben, Link unten) */
     align-items: center; /* Zentriert die Inhalte horizontal */
     text-align: center; /* Zentriert den Text */
-    border-radius: 10px; /* Abgerundete Ecken */
     padding: 10px; /* Innenabstand */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Leichter Schatteneffekt */
 }
 
 .bild {
-    width: 25%; /* Breite des Bildes auf 25% des Containers begrenzt */
+    width: 40%; /* Breite des Bildes auf 25% des Containers begrenzt */
     height: auto; /* Höhe wird proportional zur Breite angepasst */
-    border-radius: 10px; /* Abgerundete Ecken */
+    border-radius: 5px; /* Abgerundete Ecken */
 }
 
 .schrift {
     margin-top: 10px; /* Abstand nach oben */
     font-size: 1rem; /* Schriftgröße */
     font-weight: bold; /* Fettgedruckter Text */
-    color: white; /* Textfarbe */
+    color: rgb(227, 209, 120); /* Textfarbe */
     text-decoration: none; /* Entfernt die Unterstreichung */
+    background-color: rgba(6, 6, 6, 0.8); /* Halbtransparenter schwarzer Hintergrund */
+    box-shadow: 0 0 10px rgb(0, 0, 0); /* Leichter Schatteneffekt */
+    border-radius: 10px; /* Abgerundete Ecken */
+
+}
+.schrift:hover {
+    background-color: #94c7d1; /* Hintergrundfarbe beim Hover */
+    color: rgb(48, 31, 5); /* Textfarbe beim Hover */
 }
 
 footer {
