@@ -175,31 +175,30 @@ footer  {
 
 
 
-/*
+
 
 
 @media (max-width: 768px) {
     .kategorie {
         grid-template-columns: 1fr; /* Eine Spalte auf kleinen Bildschirmen */
-/*    }
+   }
 
     .titel {
         font-size: 1.5rem; /* Kleinere Schriftgröße für Titel */
-  /*  }
+  }
 
     .nava {
         font-size: 0.9rem; /* Kleinere Schriftgröße für Navigation */
-  /*  }
+    }
 }
 
 @media (max-width: 480px) {
     .titel {
         font-size: 1.2rem; /* Noch kleinere Schriftgröße für sehr kleine Bildschirme */
-  /*  }
+    }
 
     .nava {
         font-size: 0.8rem; /* Noch kleinere Schriftgröße für Navigation */
-    /*    padding: 0.5rem 0.625rem; /* Weniger Innenabstand */
-   /* }
+        padding: 0.5rem 0.625rem; /* Weniger Innenabstand */
+    }
 }
-*/
