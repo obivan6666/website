@@ -47,6 +47,8 @@
 
 .nav {
     display: flex; /* Flexbox-Layout für die Navigation */
+    margin: auto; /* Zentriert den Main-Bereich horizontal */
+ 
     justify-content: center; /* Zentriert die Navigation horizontal */
     gap: 1.5rem; /* Abstand zwischen den Navigationselementen (20px) */
 }
