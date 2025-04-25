@@ -23,7 +23,7 @@
 
 .titel {
     font-size: 2rem; /* Schriftgröße des Titels (32px) */
-    letter-spacing: 0.3125rem; /* Abstand zwischen Buchstaben (5px) */
+-spacing: 0.3125rem; /* Abstand zwischen Buchstaben (5px) */
     background-color: rgba(164, 164, 164, 0.7); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
@@ -55,7 +55,9 @@
     padding: 1.25rem; /* Innenabstand für den Header (20px) */
     text-align: center; /* Zentriert den Text im Header */
     font-family: Courier, monospace; /* Schriftart für den Header */
+
   }
+
 
 .titel2 {
     color: rgb(223, 239, 204); /* Textfarbe weiß */
@@ -63,11 +65,10 @@
     background-color: rgba(35, 125, 29, 0.187); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
-    display: inline-block; /* Blockelement mit Inline-Verhalten */
 }
 
 .main {
-    margin-top: 0.625rem; /* Abstand nach oben (10px) */ 
+    margin-top: 0.625rem; /* Abstand nach oben (10px) */
     width: 60%; /* Breite des Main-Bereichs */
     margin: auto; /* Zentriert den Main-Bereich horizontal */
     display: grid; /* Grid-Layout für die Kategorien */
@@ -114,6 +115,7 @@
 
 
 }
+
 /*------------------------ELEKTRONIK  (main)--------------------------*/
 -------------------------------------------------------------
 .emain {
@@ -193,3 +195,5 @@
         padding: 8px 10px; /* Weniger Innenabstand */
     }
 }
+
+
