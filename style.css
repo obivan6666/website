@@ -27,7 +27,7 @@
 .titel {
     font-size: 4rem; /* Schriftgröße des Titels (32px) */
     letter-spacing: 0.4rem; /* Abstand zwischen Buchstaben (5px) */
-    background-color: rgba(15, 31, 20, 0.7); /* Halbtransparenter grauer Hintergrund */
+    background-color: rgba(83, 78, 126, 0.7); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
     display: inline-block; /* Blockelement mit Inline-Verhalten */
