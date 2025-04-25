@@ -75,7 +75,7 @@
     padding: 0.625rem; /* Innenabstand (10px) */
 }
 
-.main div {
+main div {
     display: flex; /* Flexbox-Layout für die Kategorie-Elemente */
     flex-direction: column; /* Stapelt die Inhalte vertikal (Bild oben, Link unten) */
     align-items: center; /* Zentriert die Inhalte horizontal */
@@ -105,11 +105,17 @@
     color: rgb(48, 31, 5); /* Textfarbe beim Hover */
 }
 
-.footer p {
+footer  {
     text-align: center; /* Zentriert den Text im Footer */
     padding: 0.4rem; /* Innenabstand (10px) */
     background-color: rgba(0, 0, 0, 0.7); /* Halbtransparenter schwarzer Hintergrund */
     color: white; /* Textfarbe weiß */
+    justify-content: center; /* Zentriert die Navigation horizontal */
+
+}
+.footer p  {
+    text-align: center; /* Zentriert den Text im Footer */
+
 }
 
 
