@@ -3,8 +3,8 @@
 
     font-family: 'Playfair Display', serif; /* Schriftart für die gesamte Seite */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
-    margin: 0; /* Entfernt Standardabstand des Browsers */
-    padding: 0; /* Entfernt Standardinnenabstand des Browsers */
+  /*  margin: 0; /* Entfernt Standardabstand des Browsers */
+   /* padding: 0; /* Entfernt Standardinnenabstand des Browsers */
     color: #f0f0f8; /* Standardtextfarbe */
 }
 .hbody {
