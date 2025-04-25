@@ -15,7 +15,7 @@
 }
 
 .header {
-    /*padding: 1.5rem; /* Innenabstand für den Header (20px) */
+    padding: 1.5rem; /* Innenabstand für den Header (20px) */
     text-align: center; /* Zentriert den Text im Header */
     font-family: Courier, monospace; /* Schriftart für den Header */
     font-weight: bold; /* Fettgedruckter Text */
@@ -170,35 +170,3 @@ footer  {
     padding: 0.625rem; /* Innenabstand (10px) */
 }
 
-
-
-
-
-
-
-
-
-@media (max-width: 768px) {
-    .kategorie {
-        grid-template-columns: 1fr; /* Eine Spalte auf kleinen Bildschirmen */
-   }
-
-    .titel {
-        font-size: 1.5rem; /* Kleinere Schriftgröße für Titel */
-  }
-
-    .nava {
-        font-size: 0.9rem; /* Kleinere Schriftgröße für Navigation */
-    }
-}
-
-@media (max-width: 480px) {
-    .titel {
-        font-size: 1.2rem; /* Noch kleinere Schriftgröße für sehr kleine Bildschirme */
-    }
-
-    .nava {
-        font-size: 0.8rem; /* Noch kleinere Schriftgröße für Navigation */
-        padding: 0.5rem 0.625rem; /* Weniger Innenabstand */
-    }
-}
