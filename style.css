@@ -1,4 +1,6 @@
 .body {
+    background-color: rgb(6, 6, 6,); /* Halbtransparenter schwarzer Hintergrund */
+
     font-family: 'Playfair Display', serif; /* Schriftart für die gesamte Seite */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
     margin: 0; /* Entfernt Standardabstand des Browsers */
@@ -91,7 +93,7 @@
 
 .schrift {
     margin-top: 0.625rem; /* Abstand nach oben (10px) */
-    font-size: 1.5rem; /* Schriftgröße (16px) */
+    font-size: 2rem; /* Schriftgröße (16px) */
     font-weight: bold; /* Fettgedruckter Text */
     color: rgb(227, 209, 120); /* Textfarbe */
     text-decoration: none; /* Entfernt die Unterstreichung */
