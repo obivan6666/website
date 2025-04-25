@@ -16,7 +16,7 @@
 }
 
 .header {
-    padding: 1rem; /* Innenabstand für den Header (20px) */
+    padding: 1.5rem; /* Innenabstand für den Header (20px) */
     text-align: center; /* Zentriert den Text im Header */
     font-family: Courier, monospace; /* Schriftart für den Header */
     font-weight: bold; /* Fettgedruckter Text */
@@ -26,7 +26,7 @@
 }
 
 .titel {
-    font-size: 0.8rem; /* Schriftgröße des Titels (32px) */
+    font-size: 4rem; /* Schriftgröße des Titels (32px) */
     letter-spacing: 0.4rem; /* Abstand zwischen Buchstaben (5px) */
     background-color: rgba(83, 78, 126, 0.7); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
