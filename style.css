@@ -1,4 +1,5 @@
 .body {
+    
     background-color: rgb(6, 6, 6); /* Halbtransparenter schwarzer Hintergrund */
 
     font-family: 'Playfair Display', serif; /* Schriftart für die gesamte Seite */
@@ -25,7 +26,7 @@
 }
 
 .titel {
-    font-size: 4rem; /* Schriftgröße des Titels (32px) */
+    font-size: 80%; /* Schriftgröße des Titels (32px) */
     letter-spacing: 0.4rem; /* Abstand zwischen Buchstaben (5px) */
     background-color: rgba(83, 78, 126, 0.7); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
