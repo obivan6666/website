@@ -26,7 +26,7 @@
 }
 
 .titel {
-    font-size: 80%; /* Schriftgröße des Titels (32px) */
+    font-size: 1.5rem; /* Schriftgröße des Titels (32px) */
     letter-spacing: 0.4rem; /* Abstand zwischen Buchstaben (5px) */
     background-color: rgba(83, 78, 126, 0.7); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
