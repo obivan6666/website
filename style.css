@@ -13,7 +13,7 @@
 }
 
 .header {
-    padding: 1.25rem; /* Innenabstand für den Header (20px) */
+    padding: 1.5rem; /* Innenabstand für den Header (20px) */
     text-align: center; /* Zentriert den Text im Header */
     font-family: Courier, monospace; /* Schriftart für den Header */
     font-weight: bold; /* Fettgedruckter Text */
@@ -22,8 +22,8 @@
 }
 
 .titel {
-    font-size: 2rem; /* Schriftgröße des Titels (32px) */
--spacing: 0.3125rem; /* Abstand zwischen Buchstaben (5px) */
+    font-size: 4rem; /* Schriftgröße des Titels (32px) */
+    letter-spacing: 0.4rem; /* Abstand zwischen Buchstaben (5px) */
     background-color: rgba(164, 164, 164, 0.7); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
@@ -33,11 +33,11 @@
 .nav {
     display: flex; /* Flexbox-Layout für die Navigation */
     justify-content: center; /* Zentriert die Navigation horizontal */
-    gap: 1.25rem; /* Abstand zwischen den Navigationselementen (20px) */
+    gap: 1.5rem; /* Abstand zwischen den Navigationselementen (20px) */
 }
 
 .nava {
-    font-size: 1rem; /* Schriftgröße der Navigationslinks (16px) */
+    font-size: 2rem; /* Schriftgröße der Navigationslinks (16px) */
     color: #3ccc9f; /* Textfarbe */
     text-decoration: none; /* Entfernt die Unterstreichung */
     background-color: rgba(6, 6, 6, 0.5); /* Halbtransparenter schwarzer Hintergrund */
@@ -55,14 +55,12 @@
     padding: 1.25rem; /* Innenabstand für den Header (20px) */
     text-align: center; /* Zentriert den Text im Header */
     font-family: Courier, monospace; /* Schriftart für den Header */
-
   }
-
 
 .titel2 {
     color: rgb(223, 239, 204); /* Textfarbe weiß */
     font-size: 0.8rem; /* Schriftgröße des Titels (12.8px) */
-    background-color: rgba(35, 125, 29, 0.187); /* Halbtransparenter grauer Hintergrund */
+    background-color: rgba(35, 125, 29, 0.3); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
 }
@@ -86,7 +84,7 @@
 }
 
 .bild {
-    width: 50%; /* Breite des Bildes */
+    width: 60%; /* Breite des Bildes */
     height: auto; /* Höhe wird proportional zur Breite angepasst */
     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
 }
@@ -107,17 +105,17 @@
     color: rgb(48, 31, 5); /* Textfarbe beim Hover */
 }
 
-.footer {
+.footer p {
     text-align: center; /* Zentriert den Text im Footer */
-    padding: 0.625rem; /* Innenabstand (10px) */
+    padding: 0.4rem; /* Innenabstand (10px) */
     background-color: rgba(0, 0, 0, 0.7); /* Halbtransparenter schwarzer Hintergrund */
     color: white; /* Textfarbe weiß */
-
-
 }
 
-/*------------------------ELEKTRONIK  (main)--------------------------*/
--------------------------------------------------------------
+
+
+/*------------------------ELEKTRONIK  (main)-------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
 .emain {
     display: grid; /* Grid-Layout für die Kategorien */
     grid-template-rows: repeat(1, 2fr); /* Zwei Spalten mit ungleichmäßiger Verteilung */
@@ -130,50 +128,50 @@
 }
 
 .projekt {
-   
-    display: flex; /* Flexbox-Layout für die Kategorie-Elemente */
+       display: flex; /* Flexbox-Layout für die Kategorie-Elemente */
     flex-direction: row; /* Stapelt die Inhalte vertikal (Bild oben, Link unten) */
-    margin-left:  10%; /* Zentriert den Main-Bereich horizontal */
-    margin-top: 2%; /* Abstand nach oben */
+    margin-left: 10%; /* Zentriert den Main-Bereich horizontal */
+    margin-top: 0.125rem; /* Abstand nach oben (2px) */
     width: 80%; /* Breite des Bildes auf 25% des Containers begrenzt */
-  /*  height: auto; /* Höhe wird proportional zur Breite angepasst */
-    border-radius: 5px; /* Abgerundete Ecken */
+      border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
     font-family: Courier, monospace; /* Schriftart für den Header */
-
 }
-.projektlink{
+
+.projektlink {
     display: inline-block; /* Blockelement mit Inline-Verhalten */
     font-size: 1rem; /* Schriftgröße */
     font-weight: bold; /* Fettgedruckter Text */
     color: rgb(227, 209, 120); /* Textfarbe */
     text-decoration: none; /* Entfernt die Unterstreichung */
     background-color: rgba(6, 6, 6, 0.8); /* Halbtransparenter schwarzer Hintergrund */
-    box-shadow: 0 0 25px rgb(240, 229, 229); /* Schatteneffekt */
-    border-radius: 10px; /* Abgerundete Ecken */
-
-
+    box-shadow: 0 0 1.5625rem rgb(240, 229, 229); /* Schatteneffekt (25px) */
+    border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
 }
+
 .projektlink:hover {
     background-color: #94c7d1; /* Hintergrundfarbe beim Hover */
     color: rgb(48, 31, 5); /* Textfarbe beim Hover */
 }
+
 .projekttext {
     color: rgb(223, 239, 204); /* Textfarbe weiß */
     font-size: 0.9rem; /* Schriftgröße des Titels */
-   
-    background-color: rgba(35, 125, 29, 0.187); /* Halbtransparenter grauer Hintergrund */
-    border-radius: 10px; /* Abgerundete Ecken */
-    padding: 10px; /* Innenabstand */
+       background-color: rgba(35, 125, 29, 0.187); /* Halbtransparenter grauer Hintergrund */
+    border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
+    padding: 0.625rem; /* Innenabstand (10px) */
 }
 
 
 
 
-/*------------------------ANDERE BILDSCHIRME--------------------------*/
-/* Responsive Design */
+
+
+
+
+
 @media (max-width: 768px) {
     .kategorie {
-        grid-template-columns:  1fr; /* Eine Spalte auf kleinen Bildschirmen */
+        grid-template-columns: 1fr; /* Eine Spalte auf kleinen Bildschirmen */
     }
 
     .titel {
@@ -192,7 +190,7 @@
 
     .nava {
         font-size: 0.8rem; /* Noch kleinere Schriftgröße für Navigation */
-        padding: 8px 10px; /* Weniger Innenabstand */
+        padding: 0.5rem 0.625rem; /* Weniger Innenabstand */
     }
 }
 
