@@ -1,4 +1,3 @@
-
 .body {
     font-family: 'Playfair Display', serif; /* Schriftart für die gesamte Seite */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
@@ -9,12 +8,12 @@
 .hbody {
     background: url("bilder/sterne2.jpg") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
 }
-.ebody  {
+.ebody {
     background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
 }
 
 .header {
-    padding: 20px; /* Innenabstand für den Header */
+    padding: 1.25rem; /* Innenabstand für den Header (20px) */
     text-align: center; /* Zentriert den Text im Header */
     font-family: Courier, monospace; /* Schriftart für den Header */
     font-weight: bold; /* Fettgedruckter Text */
@@ -23,29 +22,28 @@
 }
 
 .titel {
-    font-size: 2rem; /* Schriftgröße des Titels */
-    letter-spacing: 5px; /* Abstand zwischen Buchstaben */
+    font-size: 2rem; /* Schriftgröße des Titels (32px) */
+    letter-spacing: 0.3125rem; /* Abstand zwischen Buchstaben (5px) */
     background-color: rgba(164, 164, 164, 0.7); /* Halbtransparenter grauer Hintergrund */
-    border-radius: 10px; /* Abgerundete Ecken */
-    padding: 10px; /* Innenabstand */
+    border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
+    padding: 0.625rem; /* Innenabstand (10px) */
     display: inline-block; /* Blockelement mit Inline-Verhalten */
 }
 
 .nav {
     display: flex; /* Flexbox-Layout für die Navigation */
     justify-content: center; /* Zentriert die Navigation horizontal */
-    gap: 20px; /* Abstand zwischen den Navigationselementen */
-
+    gap: 1.25rem; /* Abstand zwischen den Navigationselementen (20px) */
 }
 
 .nava {
-    font-size: 1rem; /* Schriftgröße der Navigationslinks */
+    font-size: 1rem; /* Schriftgröße der Navigationslinks (16px) */
     color: #3ccc9f; /* Textfarbe */
     text-decoration: none; /* Entfernt die Unterstreichung */
     background-color: rgba(6, 6, 6, 0.5); /* Halbtransparenter schwarzer Hintergrund */
-    padding: 10px 15px; /* Innenabstand: oben/unten 10px, links/rechts 15px */
-    border-radius: 5px; /* Abgerundete Ecken */
-    box-shadow: 0 0 7px rgba(155, 155, 155, 1); /* Schatteneffekt */
+    padding: 0.625rem 0.9375rem; /* Innenabstand: oben/unten 10px, links/rechts 15px */
+    border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
+    box-shadow: 0 0 0.4375rem rgba(155, 155, 155, 1); /* Schatteneffekt (7px) */
 }
 
 .nava:hover {
@@ -54,60 +52,55 @@
 }
 
 .header2 {
-    padding: 20px; /* Innenabstand für den Header */
+    padding: 1.25rem; /* Innenabstand für den Header (20px) */
     text-align: center; /* Zentriert den Text im Header */
     font-family: Courier, monospace; /* Schriftart für den Header */
-  /*  font-weight: bold; /* Fettgedruckter Text */
-
-}
+  }
 
 .titel2 {
     color: rgb(223, 239, 204); /* Textfarbe weiß */
-    font-size: 0.8rem; /* Schriftgröße des Titels */
-   /* letter-spacing: 5px; /* Abstand zwischen Buchstaben */
+    font-size: 0.8rem; /* Schriftgröße des Titels (12.8px) */
     background-color: rgba(35, 125, 29, 0.187); /* Halbtransparenter grauer Hintergrund */
-    border-radius: 10px; /* Abgerundete Ecken */
-    padding: 10px; /* Innenabstand */
+    border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
+    padding: 0.625rem; /* Innenabstand (10px) */
     display: inline-block; /* Blockelement mit Inline-Verhalten */
 }
 
-
 .main {
-    margin-top: 10px; /* Abstand nach oben */ 
-    width: 60%; /* Breite des Main-Bereichs: 30% der Elternbreite plus 30px */
-    margin:  auto; /* Zentriert den Main-Bereich horizontal */
+    margin-top: 0.625rem; /* Abstand nach oben (10px) */ 
+    width: 60%; /* Breite des Main-Bereichs */
+    margin: auto; /* Zentriert den Main-Bereich horizontal */
     display: grid; /* Grid-Layout für die Kategorien */
     grid-template-columns: repeat(2, 2fr); /* Zwei Spalten mit gleichmäßiger Verteilung */
-    gap: 30px; /* Abstand zwischen den Grid-Elementen */
-    padding: 10px; /* Innenabstand */
+    gap: 1.875rem; /* Abstand zwischen den Grid-Elementen (30px) */
+    padding: 0.625rem; /* Innenabstand (10px) */
 }
-
 
 .main div {
     display: flex; /* Flexbox-Layout für die Kategorie-Elemente */
     flex-direction: column; /* Stapelt die Inhalte vertikal (Bild oben, Link unten) */
     align-items: center; /* Zentriert die Inhalte horizontal */
     text-align: center; /* Zentriert den Text */
-    padding: 30px; /* Innenabstand */
+    padding: 1.875rem; /* Innenabstand (30px) */
 }
 
 .bild {
-    width: 40%; /* Breite des Bildes auf 25% des Containers begrenzt */
+    width: 50%; /* Breite des Bildes */
     height: auto; /* Höhe wird proportional zur Breite angepasst */
-    border-radius: 5px; /* Abgerundete Ecken */
+    border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
 }
 
 .schrift {
-    margin-top: 10px; /* Abstand nach oben */
-    font-size: 1rem; /* Schriftgröße */
+    margin-top: 0.625rem; /* Abstand nach oben (10px) */
+    font-size: 1rem; /* Schriftgröße (16px) */
     font-weight: bold; /* Fettgedruckter Text */
     color: rgb(227, 209, 120); /* Textfarbe */
     text-decoration: none; /* Entfernt die Unterstreichung */
     background-color: rgba(6, 6, 6, 0.8); /* Halbtransparenter schwarzer Hintergrund */
-    box-shadow: 0 0 25px rgb(240, 229, 229); /* Schatteneffekt */
-    border-radius: 10px; /* Abgerundete Ecken */
-
+    box-shadow: 0 0 1.5625rem rgb(240, 229, 229); /* Schatteneffekt (25px) */
+    border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
 }
+
 .schrift:hover {
     background-color: #94c7d1; /* Hintergrundfarbe beim Hover */
     color: rgb(48, 31, 5); /* Textfarbe beim Hover */
@@ -115,9 +108,11 @@
 
 .footer {
     text-align: center; /* Zentriert den Text im Footer */
-    padding: 10px; /* Innenabstand */
+    padding: 0.625rem; /* Innenabstand (10px) */
     background-color: rgba(0, 0, 0, 0.7); /* Halbtransparenter schwarzer Hintergrund */
     color: white; /* Textfarbe weiß */
+
+
 }
 /*------------------------ELEKTRONIK  (main)--------------------------*/
 -------------------------------------------------------------
@@ -167,9 +162,6 @@
     background-color: rgba(35, 125, 29, 0.187); /* Halbtransparenter grauer Hintergrund */
     border-radius: 10px; /* Abgerundete Ecken */
     padding: 10px; /* Innenabstand */
-   
-
-
 }
 
 
