@@ -75,7 +75,7 @@
     padding: 0.625rem; /* Innenabstand (10px) */
 }
 
-main div {
+.main div {
     display: flex; /* Flexbox-Layout für die Kategorie-Elemente */
     flex-direction: column; /* Stapelt die Inhalte vertikal (Bild oben, Link unten) */
     align-items: center; /* Zentriert die Inhalte horizontal */
@@ -91,7 +91,7 @@ main div {
 
 .schrift {
     margin-top: 0.625rem; /* Abstand nach oben (10px) */
-    font-size: 1rem; /* Schriftgröße (16px) */
+    font-size: 1.5rem; /* Schriftgröße (16px) */
     font-weight: bold; /* Fettgedruckter Text */
     color: rgb(227, 209, 120); /* Textfarbe */
     text-decoration: none; /* Entfernt die Unterstreichung */
