@@ -15,7 +15,7 @@
 }
 
 .header {
-    padding: 1.5rem; /* Innenabstand für den Header (20px) */
+    /*padding: 1.5rem; /* Innenabstand für den Header (20px) */
     text-align: center; /* Zentriert den Text im Header */
     font-family: Courier, monospace; /* Schriftart für den Header */
     font-weight: bold; /* Fettgedruckter Text */
