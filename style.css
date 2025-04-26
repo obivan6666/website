@@ -127,7 +127,7 @@
 
     padding: 0.4rem; /* Innenabstand (10px) */
     background-color: rgba(0, 0, 0, 0.6); /* Halbtransparenter schwarzer Hintergrund */
-    background-position: center; /* Hintergrundbild wird zentriert und fixiert */
+    background-position: center fixed; /* Hintergrundbild wird zentriert und fixiert */
     position: fixed; /* Fixiert den Footer am unteren Rand */
     bottom: 0; /* Positioniert den Footer am unteren Rand */
 
@@ -201,7 +201,5 @@
     .schrift {
         font-size: 0.7rem; /* Schriftgröße reduzieren */
     }
-.footer {
-        width: 60%; /* Breite auf 100% begrenzen */
-    }
+
 }
