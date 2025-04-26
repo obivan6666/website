@@ -179,7 +179,8 @@ footer  {
 }
 @media (max-width: 768px) {
     .titel {
-        font-size: 3rem; /*
+        font-size: 3rem; 
+    }
     .main {
         grid-template-columns: 1fr; /* Eine Spalte für kleinere Bildschirme */
         padding: 0.5rem; /* Weniger Innenabstand */
