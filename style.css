@@ -202,4 +202,16 @@
         font-size: 0.7rem; /* Schriftgröße reduzieren */
     }
 
+}@media (max-width: 768px) and (orientation: landscape) {
+    .emain {
+        background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
+
+    }
+}  
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .emain {
+        background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
+
+    }
 }
