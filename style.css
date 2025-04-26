@@ -127,16 +127,18 @@
 
     padding: 0.4rem; /* Innenabstand (10px) */
     background-color: rgba(0, 0, 0, 0.6); /* Halbtransparenter schwarzer Hintergrund */
-    background-position: center fixed; /* Hintergrundbild wird zentriert und fixiert */
-    bottom: auto; /* Positioniert den Footer am unteren Rand */
+  
+    text-align: center; /* Zentriert den Text */
 
    }
 
 .footertext {
     font-size: 0.6rem; /* Größere Schriftgröße */
-    text-align: center; /* Zentriert den Text */
     color: white; /* Weißer Text */
     margin: 0; /* Entfernt Standardabstand des Absatzes */
+        bottom: auto; /* Positioniert den Footer am unteren Rand */
+        position: static; /* Standardpositionierung */
+
 }
 /*------------------------ELEKTRONIK  -------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------*/
