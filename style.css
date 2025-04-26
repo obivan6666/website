@@ -74,6 +74,7 @@
     color: rgb(223, 239, 204); /* Textfarbe weiß */
     font-size: 0.8rem; /* Schriftgröße des Titels (12.8px) */
     display: inline-block; /* Blockelement mit Inline-Verhalten */
+    text-align: center; /* Zentriert den Text im Header */
 
 }
 
@@ -185,7 +186,6 @@
         font-size: 2.5rem; 
     }
    .main{
-       /* grid-template-columns: 1fr; /* Eine Spalte für kleinere Bildschirme */
         padding: 0.4rem; /* Weniger Innenabstand */
     }
   
