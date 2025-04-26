@@ -4,7 +4,7 @@
     font-family: 'Playfair Display', serif; /* Schriftart für die gesamte Seite */
     background-color: rgb(6, 6, 6); /* Halbtransparenter schwarzer Hintergrund */ 
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
-    background-position: center;
+    background-position: center fixed; /* Hintergrundbild wird zentriert und fixiert */
 
 }
 .hbody {
@@ -124,11 +124,10 @@
 
 footer  {
   
-    font-size: 1rem; /* Schriftgröße (16px) */
-    text-align: center; /* Zentriert den Text im Footer */
+    font-size: 0.5rem; /* Schriftgröße (16px) */
     padding: 0.4rem; /* Innenabstand (10px) */
-    background-color: rgba(0, 0, 0, 0.7); /* Halbtransparenter schwarzer Hintergrund */
-    color: white; /* Textfarbe weiß */
+    background-color: rgba(0, 0, 0, 0.6); /* Halbtransparenter schwarzer Hintergrund */
+    color: rgb(133, 172, 201); /* Textfarbe weiß */
     justify-content: center; /* Zentriert die Navigation horizontal */
 
 }
