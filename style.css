@@ -131,12 +131,12 @@ footer  {
     justify-content: center; /* Zentriert die Navigation horizontal */
     position: fixed; /* Fixiert den Footer am unteren Rand */
     bottom: 0; /* Positioniert den Footer am unteren Rand */
-   
+       text-align: center; /* Zentriert den Text im Footer */
+
   
 
 }
 .footer p  {
-    text-align: center; /* Zentriert den Text im Footer */
 
 }
 
