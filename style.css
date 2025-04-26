@@ -136,7 +136,7 @@
     font-size: 0.6rem; /* Größere Schriftgröße */
     color: white; /* Weißer Text */
     margin: 0; /* Entfernt Standardabstand des Absatzes */
-        bottom: auto; /* Positioniert den Footer am unteren Rand */
+        bottom: 0; /* Positioniert den Footer am unteren Rand */
         position: static; /* Standardpositionierung */
 
 }
