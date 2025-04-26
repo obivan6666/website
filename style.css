@@ -3,7 +3,7 @@
     margin: 0; /* Entfernt Standardabstand des Browsers */
     padding: 0; /* Entfernt Standardinnenabstand des Browsers */
     font-family: 'Playfair Display', serif; /* Schriftart für die gesamte Seite */
-    height: 100%;
+ 
     background-color: rgb(6, 6, 6); /* Halbtransparenter schwarzer Hintergrund */ 
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
     
