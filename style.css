@@ -43,7 +43,7 @@
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
     display: inline-block; /* Blockelement mit Inline-Verhalten */
-
+}
 
 .nav {
     display: flex; /* Flexbox-Layout für die Navigation */
@@ -183,4 +183,3 @@ footer  {
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
 }
-
