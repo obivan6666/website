@@ -218,8 +218,8 @@
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
-        .ebody {
-            background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
+    .ebody {
+    background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
   
     }
 }
