@@ -173,7 +173,7 @@ footer  {
     .titel {
         font-size: 2.5rem; 
     }
-   .main emain{
+   .main{
         grid-template-columns: 1fr; /* Eine Spalte für kleinere Bildschirme */
         padding: 0.4rem; /* Weniger Innenabstand */
     }
