@@ -172,6 +172,7 @@
     background-color: rgba(6, 6, 6, 0.8); /* Halbtransparenter schwarzer Hintergrund */
     box-shadow: 0 0 1.5625rem rgb(240, 229, 229); /* Schatteneffekt (25px) */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
+    
 }
 
 .projektlink:hover {
@@ -182,6 +183,7 @@
 .projekttext {
     color: rgb(223, 239, 204); /* Textfarbe weiß */
     font-size: 0.9rem; /* Schriftgröße des Titels */
+    text-align: center; /* Zentriert den Text */
     background-color: rgba(35, 125, 29, 0.187); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
