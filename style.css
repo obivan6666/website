@@ -1,11 +1,11 @@
 .body {
+    height: 100%; 
     margin: 0; /* Entfernt Standardabstand des Browsers */
     padding: 0; /* Entfernt Standardinnenabstand des Browsers */
     font-family: 'Playfair Display', serif; /* Schriftart für die gesamte Seite */
     background-color: rgb(6, 6, 6); /* Halbtransparenter schwarzer Hintergrund */ 
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
     background-position: center fixed; /* Hintergrundbild wird zentriert und fixiert */
-width: 100%; /* Breite auf 100% begrenzen */
 }
 .hbody {
     background: url("bilder/sterne2.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
