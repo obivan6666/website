@@ -203,14 +203,14 @@
     }
 
 }@media (max-width: 768px) and (orientation: landscape) {
-    .emain {
+    .ebody {
         background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
 
     }
 }  
 
 @media (max-width: 768px) and (orientation: portrait) {
-    .emain {
+    .ebody {
         background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
 
     }
