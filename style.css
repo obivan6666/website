@@ -57,7 +57,7 @@
 }
 
 .nava {
-    font-size: 1.5rem; /* Schriftgröße der Navigationslinks (16px) */
+    font-size: 1rem; /* Schriftgröße der Navigationslinks (16px) */
     color: #3ccc9f; /* Textfarbe */
     text-decoration: none; /* Entfernt die Unterstreichung */
     background-color: rgba(6, 6, 6, 0.5); /* Halbtransparenter schwarzer Hintergrund */
