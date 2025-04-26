@@ -122,7 +122,7 @@
     color: rgb(48, 31, 5); /* Textfarbe beim Hover */
 }
 
-footer  {
+footer p {
   
     font-size: 0.5rem; /* Schriftgröße (16px) */
     padding: 0.4rem; /* Innenabstand (10px) */
