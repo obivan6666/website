@@ -1,20 +1,15 @@
 .body {
-    
-    background-color: rgb(6, 6, 6); /* Halbtransparenter schwarzer Hintergrund */
-
-    font-family: 'Playfair Display', serif; /* Schriftart für die gesamte Seite */
-   /* background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
     margin: 0; /* Entfernt Standardabstand des Browsers */
     padding: 0; /* Entfernt Standardinnenabstand des Browsers */
-        background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+    font-family: 'Playfair Display', serif; /* Schriftart für die gesamte Seite */
+    background-color: rgb(6, 6, 6); /* Halbtransparenter schwarzer Hintergrund */ 
+    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
     background-position: center;
-/*color: #f0f0f8; /* Standardtextfarbe */
+
 }
 .hbody {
     background: url("bilder/sterne2.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
-
 }
-
 
 .ebody {
     background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
@@ -87,7 +82,7 @@
     padding: 0.625rem; /* Innenabstand (10px) */
 }
 
-.main div {
+.kategorie {
     display: flex; /* Flexbox-Layout für die Kategorie-Elemente */
     flex-direction: column; /* Stapelt die Inhalte vertikal (Bild oben, Link unten) */
     align-items: center; /* Zentriert die Inhalte horizontal */
@@ -101,7 +96,7 @@
     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
 }
 
-.schrift {
+.link {
     margin-top: 0.625rem; /* Abstand nach oben (10px) */
     font-size: 2rem; /* Schriftgröße (16px) */
     font-weight: bold; /* Fettgedruckter Text */
@@ -112,7 +107,7 @@
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
 }
 
-.schrift:hover {
+.link:hover {
     background-color: #94c7d1; /* Hintergrundfarbe beim Hover */
     color: rgb(48, 31, 5); /* Textfarbe beim Hover */
 }
@@ -138,20 +133,16 @@ footer  {
     display: grid; /* Grid-Layout für die Kategorien */
     grid-template-rows: repeat(1, 2fr); /* Zwei Spalten mit ungleichmäßiger Verteilung */
     gap: 30px; /* Abstand zwischen den Grid-Elementen */
-   /* margin-top: 10%; /* Abstand nach oben */ 
-  /*  width: 60%; /* Breite des Main-Bereichs: 60% des Containers */
-  /*  margin:  auto; /* Zentriert den Main-Bereich horizontal */
-  
-   /* padding: 30px; /* Innenabstand */ 
+ 
 }
 
 .projekt {
-       display: flex; /* Flexbox-Layout für die Kategorie-Elemente */
+    display: flex; /* Flexbox-Layout für die Kategorie-Elemente */
     flex-direction: row; /* Stapelt die Inhalte vertikal (Bild oben, Link unten) */
     margin-left: 10%; /* Zentriert den Main-Bereich horizontal */
     margin-top: 0.125rem; /* Abstand nach oben (2px) */
     width: 80%; /* Breite des Bildes auf 25% des Containers begrenzt */
-      border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
+    border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
     font-family: Courier, monospace; /* Schriftart für den Header */
 }
 
@@ -174,7 +165,7 @@ footer  {
 .projekttext {
     color: rgb(223, 239, 204); /* Textfarbe weiß */
     font-size: 0.9rem; /* Schriftgröße des Titels */
-       background-color: rgba(35, 125, 29, 0.187); /* Halbtransparenter grauer Hintergrund */
+    background-color: rgba(35, 125, 29, 0.187); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
 }
@@ -182,7 +173,7 @@ footer  {
     .titel {
         font-size: 3rem; 
     }
-    .main {
+    .main emain{
         grid-template-columns: 1fr; /* Eine Spalte für kleinere Bildschirme */
         padding: 0.4rem; /* Weniger Innenabstand */
     }
