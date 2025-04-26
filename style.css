@@ -177,7 +177,10 @@ footer  {
         grid-template-columns: 1fr; /* Eine Spalte für kleinere Bildschirme */
         padding: 0.4rem; /* Weniger Innenabstand */
     }
-
+    .emain{
+        grid-template-columns: 1fr; /* Eine Spalte für kleinere Bildschirme */
+        padding: 0.4rem; /* Weniger Innenabstand */
+    }
     .projekt {
         flex-direction: column; /* Inhalte vertikal anordnen */
         margin-left: 0; /* Entferne unnötige Margins */
@@ -189,6 +192,6 @@ footer  {
     }
 
     .schrift {
-        font-size: 1.25rem; /* Schriftgröße reduzieren */
+        font-size: 1rem; /* Schriftgröße reduzieren */
     }
 }
