@@ -162,7 +162,7 @@ background-position: center fixed; /* Hintergrundbild wird zentriert und fixiert
     flex-direction: row; /* Stapelt die Inhalte vertikal (Bild oben, Link unten) */
     margin-left: 10%; /* Zentriert den Main-Bereich horizontal */
     margin-top: 0.125rem; /* Abstand nach oben (2px) */
-    width: 80%; /* Breite des Bildes auf 25% des Containers begrenzt */
+    width: 100%; /* Breite des Bildes auf 25% des Containers begrenzt */
     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
     font-family: Courier, monospace; /* Schriftart für den Header */
 }
