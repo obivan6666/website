@@ -129,7 +129,6 @@ footer  {
     background-color: rgba(0, 0, 0, 0.6); /* Halbtransparenter schwarzer Hintergrund */
     color: rgb(133, 172, 201); /* Textfarbe weiß */
     justify-content: center; /* Zentriert die Navigation horizontal */
-    text-align: center; /* Zentriert den Text im Footer */
     position: fixed; /* Fixiert den Footer am unteren Rand */
     bottom: 0; /* Positioniert den Footer am unteren Rand */
    
@@ -137,6 +136,7 @@ footer  {
 
 }
 .footer p  {
+    text-align: center; /* Zentriert den Text im Footer */
 
 }
 
