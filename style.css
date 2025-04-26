@@ -201,7 +201,7 @@
   
     .projekt {
         flex-direction: column; /* Inhalte vertikal anordnen */
-        margin-left: 0; /* Entferne unnötige Margins */
+       
         width: 100%; /* Breite auf 100% begrenzen */
     }
 
@@ -221,6 +221,7 @@
     background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
   
     }
+}
     @media (max-width: 768px) and (orientation: portrait) {
         .ebody {
         background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
