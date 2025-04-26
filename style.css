@@ -17,7 +17,7 @@
 }
 
 .ebody {
-    background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
+    background: url("bilder/platiene2.png") center center fixed; /* Hintergrundbild mit fester Position */
 }
 
 .header {
