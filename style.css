@@ -128,7 +128,6 @@ footer  {
     padding: 0.4rem; /* Innenabstand (10px) */
     background-color: rgba(0, 0, 0, 0.6); /* Halbtransparenter schwarzer Hintergrund */
     background-position: center ; /* Hintergrundbild wird zentriert und fixiert */
-
     color: rgb(133, 172, 201); /* Textfarbe weiß */
     justify-content: center; /* Zentriert die Navigation horizontal */
    /* position: fixed; /* Fixiert den Footer am unteren Rand */
@@ -139,13 +138,11 @@ footer  {
   
 
 }
-.footer p  {
-
-}
 
 
 
-/*------------------------ELEKTRONIK  (main)-------------------------------------------------*/
+
+/*------------------------ELEKTRONIK  -------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------*/
 
 
