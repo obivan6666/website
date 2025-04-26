@@ -127,8 +127,10 @@ footer  {
     font-size: 0.5rem; /* Schriftgröße (16px) */
     padding: 0.4rem; /* Innenabstand (10px) */
     background-color: rgba(0, 0, 0, 0.6); /* Halbtransparenter schwarzer Hintergrund */
+    background-position: center ; /* Hintergrundbild wird zentriert und fixiert */
+
     color: rgb(133, 172, 201); /* Textfarbe weiß */
-    justify-content: center; /* Zentriert die Navigation horizontal */
+    /*justify-content: center; /* Zentriert die Navigation horizontal */
    /* position: fixed; /* Fixiert den Footer am unteren Rand */
     bottom: 0; /* Positioniert den Footer am unteren Rand */
     text-align: center; /* Zentriert den Text im Footer */
