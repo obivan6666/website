@@ -129,9 +129,10 @@ footer  {
     background-color: rgba(0, 0, 0, 0.6); /* Halbtransparenter schwarzer Hintergrund */
     color: rgb(133, 172, 201); /* Textfarbe weiß */
     justify-content: center; /* Zentriert die Navigation horizontal */
-    position: fixed; /* Fixiert den Footer am unteren Rand */
+   /* position: fixed; /* Fixiert den Footer am unteren Rand */
     bottom: 0; /* Positioniert den Footer am unteren Rand */
-       text-align: center; /* Zentriert den Text im Footer */
+    text-align: center; /* Zentriert den Text im Footer */
+    width: 100%; /* Breite des Footers auf 100% begrenzt */
 
   
 
@@ -201,7 +202,5 @@ footer  {
     .schrift {
         font-size: 0.7rem; /* Schriftgröße reduzieren */
     }
-    .footer {
-        text-align: center; /* Zentriert den Text im Footer */
-    }
+
 }
