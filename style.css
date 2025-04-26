@@ -6,12 +6,13 @@
    /* background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
     margin: 0; /* Entfernt Standardabstand des Browsers */
     padding: 0; /* Entfernt Standardinnenabstand des Browsers */
+        background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+    background-position: center;
 /*color: #f0f0f8; /* Standardtextfarbe */
 }
 .hbody {
     background: url("bilder/sterne2.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
-    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
-    background-position: center;
+
 }
 
 
@@ -183,7 +184,7 @@ footer  {
     }
     .main {
         grid-template-columns: 1fr; /* Eine Spalte für kleinere Bildschirme */
-        padding: 0.5rem; /* Weniger Innenabstand */
+        padding: 0.4rem; /* Weniger Innenabstand */
     }
 
     .projekt {
@@ -197,6 +198,6 @@ footer  {
     }
 
     .schrift {
-        font-size: 1rem; /* Schriftgröße reduzieren */
+        font-size: 1.25rem; /* Schriftgröße reduzieren */
     }
 }
