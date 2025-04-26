@@ -178,6 +178,8 @@ footer  {
     padding: 0.625rem; /* Innenabstand (10px) */
 }
 @media (max-width: 768px) {
+    .titel {
+        font-size: 3rem; /*
     .main {
         grid-template-columns: 1fr; /* Eine Spalte für kleinere Bildschirme */
         padding: 0.5rem; /* Weniger Innenabstand */
@@ -190,7 +192,7 @@ footer  {
     }
 
     .bild {
-        width: 80%; /* Bildgröße anpassen */
+        width: 70%; /* Bildgröße anpassen */
     }
 
     .schrift {
