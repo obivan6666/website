@@ -130,16 +130,13 @@ footer  {
     color: rgb(133, 172, 201); /* Textfarbe weiß */
     justify-content: center; /* Zentriert die Navigation horizontal */
     text-align: center; /* Zentriert den Text im Footer */
-position: fixed; /* Fixiert den Footer am unteren Rand */
+    position: fixed; /* Fixiert den Footer am unteren Rand */
     bottom: 0; /* Positioniert den Footer am unteren Rand */
-    left: 0; /* Positioniert den Footer am linken Rand */
-    width: 100%; /* Breite des Footers auf 100% begrenzt */
-    z-index: 1; /* Stellt sicher, dass der Footer über anderen Inhalten liegt */
-    font-family: Courier, monospace; /* Schriftart für den Header */
-    font-weight: bold; /* Fettgedruckter Text */
+   
+  
+
 }
 .footer p  {
-    text-align: center; /* Zentriert den Text im Footer */
 
 }
 
