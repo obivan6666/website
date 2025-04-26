@@ -130,7 +130,7 @@ footer  {
     background-position: center ; /* Hintergrundbild wird zentriert und fixiert */
     color: rgb(133, 172, 201); /* Textfarbe weiß */
     justify-content: center; /* Zentriert die Navigation horizontal */
-   /* position: fixed; /* Fixiert den Footer am unteren Rand */
+    position: fixed; /* Fixiert den Footer am unteren Rand */
     bottom: 0; /* Positioniert den Footer am unteren Rand */
     text-align: center; /* Zentriert den Text im Footer */
     width: 100%; /* Breite des Footers auf 100% begrenzt */
