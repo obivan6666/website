@@ -11,7 +11,9 @@
 .hbody {
     background: url("bilder/sterne2.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+    background-position: center;
 }
+
 
 /* Anpassung für mobile Geräte */
 @media (max-width: 768px) {
@@ -27,6 +29,7 @@
 }
 
 .header {
+
     padding: 1.5rem; /* Innenabstand für den Header (20px) */
     text-align: center; /* Zentriert den Text im Header */
     font-family: Courier, monospace; /* Schriftart für den Header */
