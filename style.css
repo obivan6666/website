@@ -179,6 +179,8 @@ footer  {
     }
     .emain{
         grid-template-columns: 1fr; /* Eine Spalte für kleinere Bildschirme */
+        padding: 0.4rem; /* Weniger Innenabstand */
+
     }
     .projekt {
         flex-direction: column; /* Inhalte vertikal anordnen */
