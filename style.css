@@ -1,5 +1,6 @@
 .body {
-    
+    width: 100%; /* Breite auf 100% begrenzen */
+
     margin: 0; /* Entfernt Standardabstand des Browsers */
     padding: 0; /* Entfernt Standardinnenabstand des Browsers */
     background-color: rgb(6, 6, 6); /* Halbtransparenter schwarzer Hintergrund */ 
@@ -23,6 +24,7 @@ background-position: center fixed; /* Hintergrundbild wird zentriert und fixiert
 }
 
 .header {
+    width: 100%; /* Breite auf 100% begrenzen */
 
     padding: 1.5rem; /* Innenabstand für den Header (20px) */
     text-align: center; /* Zentriert den Text im Header */
