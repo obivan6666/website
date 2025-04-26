@@ -15,15 +15,6 @@
 }
 
 
-/* Anpassung für mobile Geräte */
-@media (max-width: 768px) {
-    .hbody {
-        background-attachment: scroll; /* Entfernt die Fixierung des Hintergrunds */
-        background-size: cover; /* Hintergrund bleibt skaliert */
-        background-position: center; /* Zentriert das Bild */
-    }
-}
-
 .ebody {
     background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
 }
@@ -185,4 +176,24 @@ footer  {
        background-color: rgba(35, 125, 29, 0.187); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
+}
+@media (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr; /* Eine Spalte für kleinere Bildschirme */
+        padding: 0.5rem; /* Weniger Innenabstand */
+    }
+
+    .projekt {
+        flex-direction: column; /* Inhalte vertikal anordnen */
+        margin-left: 0; /* Entferne unnötige Margins */
+        width: 100%; /* Breite auf 100% begrenzen */
+    }
+
+    .bild {
+        width: 80%; /* Bildgröße anpassen */
+    }
+
+    .schrift {
+        font-size: 1rem; /* Schriftgröße reduzieren */
+    }
 }
