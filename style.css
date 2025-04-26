@@ -145,8 +145,8 @@
     font-size: 0.6rem; /* Größere Schriftgröße */
     color: white; /* Weißer Text */
     margin: 0; /* Entfernt Standardabstand des Absatzes */
-        bottom: 0; /* Positioniert den Footer am unteren Rand */
-        position: static; /* Standardpositionierung */
+    bottom: 0; /* Positioniert den Footer am unteren Rand */
+    position: static; /* Standardpositionierung */
 
 }
 /*------------------------ELEKTRONIK  -------------------------------------------------*/
@@ -172,7 +172,8 @@
     background-color: rgba(6, 6, 6, 0.8); /* Halbtransparenter schwarzer Hintergrund */
     box-shadow: 0 0 1.5625rem rgb(240, 229, 229); /* Schatteneffekt (25px) */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
-    
+    align-items: center; /* Zentriert die Inhalte horizontal */
+
     text-align: center; /* Zentriert den Text */
 
 }
@@ -220,4 +221,9 @@
     background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
   
     }
+    @media (max-width: 768px) and (orientation: portrait) {
+        .ebody {
+        background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
+      
+        }
 }
