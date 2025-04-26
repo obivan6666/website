@@ -211,7 +211,7 @@
 }
 @media (max-width: 768px) and (orientation: portrait) {
     .ebody {
-        background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
+        background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
         height: 100%; 
         margin: 0; /* Entfernt Standardabstand des Browsers */
         padding: 0; /* Entfernt Standardinnenabstand des Browsers */
