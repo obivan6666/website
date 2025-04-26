@@ -128,16 +128,16 @@
     padding: 0.4rem; /* Innenabstand (10px) */
     background-color: rgba(0, 0, 0, 0.6); /* Halbtransparenter schwarzer Hintergrund */
     background-position: center fixed; /* Hintergrundbild wird zentriert und fixiert */
-    justify-content: center; /* Zentriert die Navigation horizontal */
-    text-align: center; /* Zentriert den Text im Footer */
-    width: auto; /* Breite des Footers auf 100% begrenzt */
-}
+   }
 
 .footertext{
     font-size: 0.5rem; /* Schriftgröße (16px) */
     position: fixed; /* Fixiert den Footer am unteren Rand */
     color: rgb(133, 172, 201); /* Textfarbe weiß */
     bottom: 0; /* Positioniert den Footer am unteren Rand */
+ justify-content: center; /* Zentriert die Navigation horizontal */
+    text-align: center; /* Zentriert den Text im Footer */
+    width: auto; /* Breite des Footers auf 100% begrenzt */
 
 }
 /*------------------------ELEKTRONIK  -------------------------------------------------*/
