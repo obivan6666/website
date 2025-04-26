@@ -7,7 +7,7 @@
     background-color: rgb(6, 6, 6); /* Halbtransparenter schwarzer Hintergrund */ 
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
     background-position: center fixed; /* Hintergrundbild wird zentriert und fixiert */
-    margin: auto; /* Zentriert den Main-Bereich horizontal */
+    
    
 }
 
