@@ -201,5 +201,7 @@ footer  {
     .schrift {
         font-size: 0.7rem; /* Schriftgröße reduzieren */
     }
-
+.footer {
+        width: 60%; /* Breite auf 100% begrenzen */
+    }
 }
