@@ -173,14 +173,13 @@ footer  {
     .titel {
         font-size: 2.5rem; 
     }
-   /*  .main emain{
+   .main emain{
         grid-template-columns: 1fr; /* Eine Spalte für kleinere Bildschirme */
-   /*      padding: 0.4rem; /* Weniger Innenabstand */
-  /*   }
+        padding: 0.4rem; /* Weniger Innenabstand */
+    }
     .emain{
         grid-template-columns: 1fr; /* Eine Spalte für kleinere Bildschirme */
- /*        padding: 0.4rem; /* Weniger Innenabstand */
-
+    }
     .projekt {
         flex-direction: column; /* Inhalte vertikal anordnen */
         margin-left: 0; /* Entferne unnötige Margins */
