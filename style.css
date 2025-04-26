@@ -133,7 +133,7 @@ footer p {
     position: fixed; /* Fixiert den Footer am unteren Rand */
     bottom: 0; /* Positioniert den Footer am unteren Rand */
     text-align: center; /* Zentriert den Text im Footer */
-    width: 80%; /* Breite des Footers auf 100% begrenzt */
+    width: auto; /* Breite des Footers auf 100% begrenzt */
 
   
 
