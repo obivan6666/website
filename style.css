@@ -133,14 +133,11 @@
 
    }
 
-.footertext  {
-    font-size: 0.5rem; /* Schriftgröße (16px) */
-    width: auto; /* Breite des Footers auf 100% begrenzt */
-
-    color: rgb(133, 172, 201); /* Textfarbe weiß */
-    justify-content: center; /* Zentriert die Navigation horizontal */
-    text-align: center; /* Zentriert den Text im Footer */
-
+.footertext {
+    font-size: 0.6rem; /* Größere Schriftgröße */
+    text-align: center; /* Zentriert den Text */
+    color: white; /* Weißer Text */
+    margin: 0; /* Entfernt Standardabstand des Absatzes */
 }
 /*------------------------ELEKTRONIK  -------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------*/
