@@ -226,9 +226,13 @@ background-position: center fixed; /* Hintergrundbild wird zentriert und fixiert
   
     }
 }
-    @media (max-width: 768px) and (orientation: portrait) {
-        .ebody {
+@media (max-width: 768px) and (orientation: portrait) {
+    .ebody {
         background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
-      
-        }
+  
+    }
+    .hmain {
+  
+            grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
+    }
 }
