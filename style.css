@@ -86,6 +86,12 @@
     gap: 1.875rem; /* Abstand zwischen den Grid-Elementen (30px) */
     padding: 0.625rem; /* Innenabstand (10px) */
 }
+.emain {
+    
+    grid-template-rows: repeat(1, 2fr); /* Zwei Spalten mit ungleichmäßiger Verteilung */
+    gap: 30px; /* Abstand zwischen den Grid-Elementen */
+ 
+}
 .kategorie {
     display: flex; /* Flexbox-Layout für die Kategorie-Elemente */
     flex-direction: column; /* Stapelt die Inhalte vertikal (Bild oben, Link unten) */
@@ -117,6 +123,8 @@
 }
 
 footer  {
+  
+    font-size: 1rem; /* Schriftgröße (16px) */
     text-align: center; /* Zentriert den Text im Footer */
     padding: 0.4rem; /* Innenabstand (10px) */
     background-color: rgba(0, 0, 0, 0.7); /* Halbtransparenter schwarzer Hintergrund */
@@ -133,12 +141,7 @@ footer  {
 
 /*------------------------ELEKTRONIK  (main)-------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------*/
-.emain {
-    display: grid; /* Grid-Layout für die Kategorien */
-    grid-template-rows: repeat(1, 2fr); /* Zwei Spalten mit ungleichmäßiger Verteilung */
-    gap: 30px; /* Abstand zwischen den Grid-Elementen */
- 
-}
+
 
 .projekt {
     display: flex; /* Flexbox-Layout für die Kategorie-Elemente */
