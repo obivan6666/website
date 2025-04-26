@@ -66,7 +66,7 @@ width: 100%; /* Breite auf 100% begrenzen */
     background-color: rgba(35, 125, 29, 0.4); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
-    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+    background-size: center; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 
   }
 
