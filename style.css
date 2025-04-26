@@ -83,13 +83,10 @@
 .hmain {
   
     grid-template-columns: repeat(2, 2fr); /* Zwei Spalten mit gleichmäßiger Verteilung */
-    gap: 1.875rem; /* Abstand zwischen den Grid-Elementen (30px) */
-    padding: 0.625rem; /* Innenabstand (10px) */
 }
 .emain {
     
     grid-template-rows: repeat(1, 2fr); /* Zwei Spalten mit ungleichmäßiger Verteilung */
-    gap: 30px; /* Abstand zwischen den Grid-Elementen */
  
 }
 .kategorie {
