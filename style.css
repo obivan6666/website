@@ -223,6 +223,8 @@
     .hmain {
         grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
     }
+    .emain {
+    }
     .main {
         padding: 90%; /* Weniger Innenabstand */
     }
@@ -230,7 +232,7 @@
         width: 60%; /* Bildgröße anpassen */
     }
     .link {
-        font-size: 15%; /* Schriftgröße reduzieren */
+      /*  font-size: 15%; /* Schriftgröße reduzieren */
     }
 } 
 /*-----------------QUER----------------------------- */
