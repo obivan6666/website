@@ -222,7 +222,7 @@
     }
     .header {
         width: 80%; /* Bildgröße anpassen */
-        padding: 80%; /* Weniger Innenabstand */
+     
     }
     .titel {
         font-size: 100%; /* Schriftgröße des Titels (32px) */
@@ -234,7 +234,7 @@
 
     }
     .main {        
-        width: 50%; /* Bildgröße anpassen */
+        width: 60%; /* Bildgröße anpassen */
 
         padding: 10%; /* Weniger Innenabstand */
     }
