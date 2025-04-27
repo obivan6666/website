@@ -29,8 +29,9 @@
     font-family: Courier, monospace; /* Schriftart für den Header */
     font-weight: bold; /* Fettgedruckter Text */
     background-color: rgba(0, 0, 0, 0.3); /* Halbtransparenter schwarzer Hintergrund */
-    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
-  
+    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */ 
+    margin: auto; /* Zentriert den Main-Bereich horizontal */
+ 
     color: white; /* Textfarbe weiß */
 }
 
@@ -216,7 +217,7 @@
     
     }
     .titel {
-        font-size: 100%; /* Schriftgröße des Titels (32px) */
+        font-size: 80; /* Schriftgröße des Titels (32px) */
     }
    .main{
         padding: 0.4rem; /* Weniger Innenabstand */
@@ -254,6 +255,9 @@
     }
     .hmain {
         grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
+    }
+    .main {
+        padding: 0.4rem; /* Weniger Innenabstand */
     }
     .bild {
         width: 60%; /* Bildgröße anpassen */
