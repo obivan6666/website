@@ -79,7 +79,7 @@
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
     background-size: center; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
-    margin: auto; /* Zentriert den Main-Bereich horizontal */
+   /* margin: auto; /* Zentriert den Main-Bereich horizontal */
 
   }
 
