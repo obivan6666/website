@@ -217,7 +217,7 @@
     
     }
     .titel {
-        font-size: 80; /* Schriftgröße des Titels (32px) */
+        font-size: 80%; /* Schriftgröße des Titels (32px) */
     }
    .main{
         padding: 0.4rem; /* Weniger Innenabstand */
