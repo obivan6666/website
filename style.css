@@ -88,7 +88,7 @@ padding: auto;
 
 .main {
     margin-top: 0.625rem; /* Abstand nach oben (10px) */
-    width: 100%; /* Breite des Main-Bereichs */
+    width: 80%; /* Breite des Main-Bereichs */
     margin: auto; /* Zentriert den Main-Bereich horizontal */
     display: grid; /* Grid-Layout für die Kategorien */
     gap: 1.875rem; /* Abstand zwischen den Grid-Elementen (30px) */
