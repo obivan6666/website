@@ -211,13 +211,13 @@
 
 @media (max-width: 768px) and (orientation: portrait) {
     .hbody {
-        width: 70%; /* Bildgröße anpassen */
+        width: 50%; /* Bildgröße anpassen */
 
 
     }
     .ebody {
         background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
-        width: 80%; /* Bildgröße anpassen */
+        width: 100%; /* Bildgröße anpassen */
 
     }
     .titel {
