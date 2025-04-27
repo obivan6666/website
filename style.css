@@ -98,6 +98,8 @@
     display: grid; /* Grid-Layout für die Kategorien */
     gap: 1.875rem; /* Abstand zwischen den Grid-Elementen (30px) */
     padding: 0.625rem; /* Innenabstand (10px) */
+    text-align: center; /* Zentriert den Text im Header */
+
 }
 .hmain {
   
