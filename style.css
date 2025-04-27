@@ -112,13 +112,13 @@ padding: auto;
 }
 
 .bild {
-    width: 60%; /* Breite des Bildes */
+    width: 50%; /* Breite des Bildes */
     height: auto; /* Höhe wird proportional zur Breite angepasst */
     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
 }
 
 .link {
-    margin-top: 0.625rem; /* Abstand nach oben (10px) */
+    margin-top: 0.5rem; /* Abstand nach oben (10px) */
     font-size: 2rem; /* Schriftgröße (16px) */
     font-weight: bold; /* Fettgedruckter Text */
     color: rgb(227, 209, 120); /* Textfarbe */
