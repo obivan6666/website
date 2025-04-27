@@ -221,7 +221,7 @@
 
     }
     .titel {
-        font-size: 100%; /* Schriftgröße des Titels (32px) */
+        font-size: 0.5em; /* Schriftgröße des Titels (32px) */
     }
     .hmain {
         grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
