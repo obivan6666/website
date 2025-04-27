@@ -201,11 +201,7 @@ padding: auto;
         padding: 0.4rem; /* Weniger Innenabstand */
     }
   
-    .projekt {
-       /* flex-direction: column; /* Inhalte vertikal anordnen */
-       
-        width: 70%; /* Breite auf 100% begrenzen */
-    }
+ 
 
     .bild {
         width: 70%; /* Bildgröße anpassen */
@@ -229,11 +225,15 @@ padding: auto;
 
     }
     .hmain {
-
-
+  
+       /* flex-direction: column; /* Inhalte vertikal anordnen */
+       
+        width: 70%; /* Breite auf 100% begrenzen */
     }
+
 }
-@media (max-width: 768px) and (orientation: portrait) {
+
+    @media (max-width: 768px) and (orientation: portrait) {
     .hbody {
         width: 50%; /* Bildgröße anpassen */
 
