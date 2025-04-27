@@ -250,15 +250,15 @@
 
     }
     .titel {
-        font-size: 60%; /* Schriftgröße des Titels (32px) */
+        font-size: 90%; /* Schriftgröße des Titels (32px) */
     }
     .hmain {
-            grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
+        grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
     }
     .bild {
-        width: 70%; /* Bildgröße anpassen */
+        width:90%; /* Bildgröße anpassen */
     }
     .link {
-        font-size: 70%; /* Schriftgröße reduzieren */
+        font-size: 90%; /* Schriftgröße reduzieren */
     }
 } 
