@@ -204,6 +204,35 @@
 @media (max-width: 768px) {
 
 }
+/*-----------------HOCH----------------------------- */
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .hbody {
+        width: 80%; /* Bildgröße anpassen */
+
+
+    }
+    .ebody {
+        background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
+        width: 80%; /* Bildgröße anpassen */
+
+    }
+    .titel {
+        font-size: 100%; /* Schriftgröße des Titels (32px) */
+    }
+    .hmain {
+        grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
+    }
+    .main {
+        padding: 90%; /* Weniger Innenabstand */
+    }
+    .bild {
+        width: 60%; /* Bildgröße anpassen */
+    }
+    .link {
+        font-size: 15%; /* Schriftgröße reduzieren */
+    }
+} 
 /*-----------------QUER----------------------------- */
 @media (max-width: 768px) and (orientation: landscape) {
     .hbody {
@@ -237,32 +266,3 @@
     }
 
 }
-/*-----------------HOCH----------------------------- */
-
-    @media (max-width: 768px) and (orientation: portrait) {
-    .hbody {
-        width: 80%; /* Bildgröße anpassen */
-
-
-    }
-    .ebody {
-        background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
-        width: 80%; /* Bildgröße anpassen */
-
-    }
-    .titel {
-        font-size: 100%; /* Schriftgröße des Titels (32px) */
-    }
-    .hmain {
-        grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
-    }
-    .main {
-        padding: 90%; /* Weniger Innenabstand */
-    }
-    .bild {
-        width: 60%; /* Bildgröße anpassen */
-    }
-    .link {
-        font-size: 15%; /* Schriftgröße reduzieren */
-    }
-} 
