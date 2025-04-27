@@ -15,11 +15,12 @@
 
 .hbody {
     background: url("bilder/sterne2.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
-
 }
-
 .ebody {
     background: url("bilder/platiene2.png") center center fixed; /* Hintergrundbild mit fester Position */
+}
+.kbody {
+    background: url("bilder/kunst.jpg") no-repeat center center fixed; /* Hintergrundbild für Kunst */
 }
 
 .header {
