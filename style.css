@@ -246,7 +246,7 @@
     }
     .ebody {
         background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
-        width: 50%; /* Bildgröße anpassen */
+        width: 80%; /* Bildgröße anpassen */
 
     }
     .titel {
