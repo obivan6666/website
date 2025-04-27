@@ -229,7 +229,7 @@
     .emain {
     }
     .main {
-      padding: 100%; /* Weniger Innenabstand */
+      padding: 10%; /* Weniger Innenabstand */
     }
     .bild {
         width: 60%; /* Bildgröße anpassen */
