@@ -195,7 +195,7 @@
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     .titel {
-        font-size: 2.5rem; 
+        font-size: 70%; 
     }
    .main{
         padding: 0.4rem; /* Weniger Innenabstand */
@@ -212,7 +212,7 @@
     }
 
     .schrift {
-        font-size: 0.7rem; /* Schriftgröße reduzieren */
+        font-size: 70%; /* Schriftgröße reduzieren */
     }
 
 }
@@ -220,7 +220,7 @@
 
 @media (max-width: 768px) and (orientation: landscape) {
     .hbody {
-        width: 50%; /* Bildgröße anpassen */
+        width: 70%; /* Bildgröße anpassen */
 
     }
     .ebody {
