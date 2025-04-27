@@ -194,22 +194,8 @@ padding: auto;
 }
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
-    .titel {
-        font-size: 2.5rem; 
-    }
-   .main{
-        padding: 0.4rem; /* Weniger Innenabstand */
-    }
-  
+
  
-
-    .bild {
-        width: 70%; /* Bildgröße anpassen */
-    }
-
-    .schrift {
-        font-size: 0.7rem; /* Schriftgröße reduzieren */
-    }
 
 }
 
@@ -223,15 +209,33 @@ padding: auto;
     background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
     width: 50%; /* Bildgröße anpassen */
 
+    
     }
+    .titel {
+        font-size: 2.5rem; 
+    }
+   .main{
+        padding: 0.4rem; /* Weniger Innenabstand */
+    }
+  
     .hmain {
   
-       /* flex-direction: column; /* Inhalte vertikal anordnen */
        
-        width: 70%; /* Breite auf 100% begrenzen */
+         width: 70%; /* Breite auf 100% begrenzen */
+    }
+
+    .bild {
+        width: 70%; /* Bildgröße anpassen */
+    }
+
+    .schrift {
+        font-size: 0.7rem; /* Schriftgröße reduzieren */
     }
 
 }
+
+
+
 
     @media (max-width: 768px) and (orientation: portrait) {
     .hbody {
