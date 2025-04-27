@@ -247,7 +247,9 @@
         width: 50%; /* Bildgröße anpassen */
 
     }
-
+    .titel {
+        font-size: 70%; /* Schriftgröße des Titels (32px) */
+    }
     .hmain {
             grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
     }
