@@ -235,7 +235,7 @@
     }
 
 }
-/*-----------------QUER----------------------------- */
+/*-----------------HOCH----------------------------- */
 
     @media (max-width: 768px) and (orientation: portrait) {
     .hbody {
@@ -247,10 +247,14 @@
         width: 50%; /* Bildgröße anpassen */
 
     }
+
     .hmain {
-      
-
             grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
-
+    }
+    .bild {
+        width: 70%; /* Bildgröße anpassen */
+    }
+    .link {
+        font-size: 0.7rem; /* Schriftgröße reduzieren */
     }
 } 
