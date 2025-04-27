@@ -216,16 +216,15 @@
     
     }
     .titel {
-        font-size: 90%; /* Schriftgröße des Titels (32px) */
+        font-size: 100%; /* Schriftgröße des Titels (32px) */
     }
    .main{
         padding: 0.4rem; /* Weniger Innenabstand */
     }
   
-    .hmain {
-  
+    .hmain { 
        
-         width: 70%; /* Breite auf 100% begrenzen */
+    width: 70%; /* Breite auf 100% begrenzen */
     }
 
     .bild {
