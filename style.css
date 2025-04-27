@@ -204,7 +204,7 @@
     .projekt {
        /* flex-direction: column; /* Inhalte vertikal anordnen */
        
-        width: 100%; /* Breite auf 100% begrenzen */
+        width: 70%; /* Breite auf 100% begrenzen */
     }
 
     .bild {
@@ -219,12 +219,16 @@
 
 
 @media (max-width: 768px) and (orientation: landscape) {
+    .hbody {
+        width: 50%; /* Bildgröße anpassen */
+
+    }
     .ebody {
     background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
+    width: 70%; /* Bildgröße anpassen */
 
     }
     .hmain {
-    font-size: 0.6rem; /* Schriftgröße */
 
 
     }
