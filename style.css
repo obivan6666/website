@@ -239,7 +239,7 @@
 
     @media (max-width: 768px) and (orientation: portrait) {
     .hbody {
-        width: 50%; /* Bildgröße anpassen */
+      
 
     }
     .ebody {
