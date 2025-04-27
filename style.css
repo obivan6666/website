@@ -30,7 +30,7 @@
     font-weight: bold; /* Fettgedruckter Text */
     background-color: rgba(0, 0, 0, 0.3); /* Halbtransparenter schwarzer Hintergrund */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
-    background-position: center ; /* Hintergrundbild wird zentriert und fixiert */
+  
     color: white; /* Textfarbe weiß */
 }
 
