@@ -193,30 +193,30 @@
     padding: 0.625rem; /* Innenabstand (10px) */
 }
 /* Responsive adjustments for smaller screens */
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
     .titel {
         font-size: 2.5rem; 
     }
    .main{
         padding: 0.4rem; /* Weniger Innenabstand */
-   /* }
+    }
   
     .projekt {
        /* flex-direction: column; /* Inhalte vertikal anordnen */
        
-  /*      width: 70%; /* Breite auf 100% begrenzen */
- /*   }
+        width: 70%; /* Breite auf 100% begrenzen */
+    }
 
     .bild {
         width: 70%; /* Bildgröße anpassen */
-   /* }
+    }
 
     .schrift {
         font-size: 0.7rem; /* Schriftgröße reduzieren */
-  /*  }
+    }
 
 }
-*/
+
 
 @media (max-width: 768px) and (orientation: landscape) {
     .hbody {
