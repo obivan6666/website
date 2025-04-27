@@ -81,7 +81,8 @@
     padding: 0.625rem; /* Innenabstand (10px) */
     background-size: center; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
     background-position: center;
-
+    margin-left: 10%;
+    margin-right: 10%; /* Abstand links und rechts */
   }
 
 .titel2 {
