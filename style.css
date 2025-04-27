@@ -237,12 +237,12 @@
 /*-----------------QUER----------------------------- */
 @media (max-width: 768px) and (orientation: landscape) {
     .hbody {
-        width: 80%; /* Bildgröße anpassen */
+        width: 100%; /* Bildgröße anpassen */
 
     }
     .ebody {
         background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
-        width: 80%; /* Bildgröße anpassen */
+        width: 100%; /* Bildgröße anpassen */
 
     
     }
