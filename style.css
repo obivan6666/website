@@ -203,10 +203,6 @@
 
 
 
-/*Kleiner Bildschirm  allgemein */
-@media (max-width: 768px) {
-
-}
 /*-----------------HOCH----------------------------- */
 
 @media (max-width: 768px) and (orientation: portrait) {
@@ -221,7 +217,7 @@
 
     }
     .titel {
-        font-size: 0.5em; /* Schriftgröße des Titels (32px) */
+        font-size: 2em; /* Schriftgröße des Titels (32px) */
     }
     .hmain {
         grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
@@ -245,8 +241,8 @@
 
     }
     .ebody {
-    background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
-    width: 80%; /* Bildgröße anpassen */
+        background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
+        width: 80%; /* Bildgröße anpassen */
 
     
     }
