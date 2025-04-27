@@ -220,6 +220,10 @@
         width: 100%; /* Bildgröße anpassen */
 
     }
+    .header {
+        width: 100%; /* Bildgröße anpassen */
+        padding: 0.4rem; /* Weniger Innenabstand */
+    }
     .titel {
         font-size: 100%; /* Schriftgröße des Titels (32px) */
     }
@@ -227,6 +231,7 @@
         grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
     }
     .emain {
+
     }
     .main {        
         width: 60%; /* Bildgröße anpassen */
