@@ -23,13 +23,14 @@
 
 .header {
     width: 100%; /* Breite auf 100% begrenzen */
-padding: auto;
+    padding: auto;
   /*  padding: 1.5rem; /* Innenabstand für den Header (20px) */
     text-align: center; /* Zentriert den Text im Header */
     font-family: Courier, monospace; /* Schriftart für den Header */
     font-weight: bold; /* Fettgedruckter Text */
     background-color: rgba(0, 0, 0, 0.4); /* Halbtransparenter schwarzer Hintergrund */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+    background-position: center ; /* Hintergrundbild wird zentriert und fixiert */
     color: white; /* Textfarbe weiß */
 }
 
