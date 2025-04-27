@@ -228,8 +228,10 @@
     }
     .emain {
     }
-    .main {
-      padding: 10%; /* Weniger Innenabstand */
+    .main {        
+        width: 60%; /* Bildgröße anpassen */
+
+        padding: 10%; /* Weniger Innenabstand */
     }
     .bild {
         width: 60%; /* Bildgröße anpassen */
@@ -249,7 +251,7 @@
     
     }
     .titel {
-        font-size: 0.1em; /* Schriftgröße des Titels (32px) */
+        font-size: 0.3em; /* Schriftgröße des Titels (32px) */
     }
    .main{
         padding: 0.4rem; /* Weniger Innenabstand */
