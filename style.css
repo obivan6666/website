@@ -113,6 +113,11 @@
     grid-template-rows: repeat(1, 2fr); /* Zwei Spalten mit ungleichmäßiger Verteilung */
  
 }
+.kmain {
+    
+    grid-template-rows: repeat(1, 2fr); /* Zwei Spalten mit ungleichmäßiger Verteilung */
+ 
+}
 .kategorie {
     display: flex; /* Flexbox-Layout für die Kategorie-Elemente */
     flex-direction: column; /* Stapelt die Inhalte vertikal (Bild oben, Link unten) */
