@@ -251,7 +251,7 @@
     
     }
     .titel {
-        font-size: 10%; /* Schriftgröße des Titels (32px) */
+        font-size: 0.1em; /* Schriftgröße des Titels (32px) */
     }
    .main{
         padding: 0.4rem; /* Weniger Innenabstand */
