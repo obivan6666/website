@@ -195,7 +195,7 @@
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     .titel {
-        font-size: 70%; 
+        font-size: 2.5rem; 
     }
    .main{
         padding: 0.4rem; /* Weniger Innenabstand */
@@ -212,7 +212,7 @@
     }
 
     .schrift {
-        font-size: 70%; /* Schriftgröße reduzieren */
+        font-size: 0.7rem; /* Schriftgröße reduzieren */
     }
 
 }
@@ -220,12 +220,12 @@
 
 @media (max-width: 768px) and (orientation: landscape) {
     .hbody {
-        width: 70%; /* Bildgröße anpassen */
+        width: 50%; /* Bildgröße anpassen */
 
     }
     .ebody {
     background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
-    width: 70%; /* Bildgröße anpassen */
+    width: 50%; /* Bildgröße anpassen */
 
     }
     .hmain {
@@ -234,12 +234,18 @@
     }
 }
 @media (max-width: 768px) and (orientation: portrait) {
+    .hbody {
+        width: 50%; /* Bildgröße anpassen */
+
+    }
     .ebody {
         background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
+        width: 50%; /* Bildgröße anpassen */
 
     }
     .hmain {
-  
+        width: 50%; /* Bildgröße anpassen */
+
             grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
 
     }
