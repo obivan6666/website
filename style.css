@@ -24,7 +24,7 @@
 .header {
     width: 100%; /* Breite auf 100% begrenzen */
 padding: auto;
-    padding: 1.5rem; /* Innenabstand für den Header (20px) */
+  /*  padding: 1.5rem; /* Innenabstand für den Header (20px) */
     text-align: center; /* Zentriert den Text im Header */
     font-family: Courier, monospace; /* Schriftart für den Header */
     font-weight: bold; /* Fettgedruckter Text */
@@ -195,11 +195,11 @@ padding: auto;
 
 
 
-/* Responsive adjustments for smaller screens */
+/*Kleiner Bildschirm  allgemein */
 @media (max-width: 768px) {
 
 }
-
+/*-----------------QUER----------------------------- */
 @media (max-width: 768px) and (orientation: landscape) {
     .hbody {
         width: 50%; /* Bildgröße anpassen */
@@ -233,9 +233,7 @@ padding: auto;
     }
 
 }
-
-
-
+/*-----------------QUER----------------------------- */
 
     @media (max-width: 768px) and (orientation: portrait) {
     .hbody {
