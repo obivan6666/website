@@ -6,6 +6,7 @@
   /*  background-color: rgb(6, 6, 6); /* Halbtransparenter schwarzer Hintergrund */ 
     background-position: center ; /* Hintergrundbild wird zentriert und fixiert */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+    text-align: center; /* Zentriert den Text im Header */
 
     /*margin: auto; /* Zentriert den Main-Bereich horizontal */
    font-family: 'Playfair Display', serif; /* Schriftart für die gesamte Seite */
