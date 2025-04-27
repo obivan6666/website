@@ -202,7 +202,7 @@
     }
   
     .projekt {
-        flex-direction: column; /* Inhalte vertikal anordnen */
+       /* flex-direction: column; /* Inhalte vertikal anordnen */
        
         width: 100%; /* Breite auf 100% begrenzen */
     }
