@@ -119,7 +119,7 @@ padding: auto;
 
 .link {
     margin-top: 0.5rem; /* Abstand nach oben (10px) */
-    font-size: 2rem; /* Schriftgröße (16px) */
+    font-size: 1.5rem; /* Schriftgröße (16px) */
     font-weight: bold; /* Fettgedruckter Text */
     color: rgb(227, 209, 120); /* Textfarbe */
     text-decoration: none; /* Entfernt die Unterstreichung */
