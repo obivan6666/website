@@ -1,6 +1,32 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Padding und Border werden in die Breite/Höhe einbezogen */
+}
+
+html, body {
+    height: 100%; /* Stellt sicher, dass der Body die volle Höhe einnimmt */
+}
+
+body {
+    line-height: 1.5; /* Einheitliche Zeilenhöhe */
+    font-family: Arial, sans-serif; /* Standard-Schriftart */
+}
+
+img, picture, video, canvas, svg {
+    display: block; /* Entfernt Inline-Block-Verhalten */
+    max-width: 100%; /* Verhindert, dass Medien den Container überlaufen */
+}
+
+input, button, textarea, select {
+    font: inherit; /* Verwendet die Schriftart des Eltern-Elements */
+}
+
+
 .body {
     width: 100%; /* Breite auf 100% begrenzen */
-
+    height: 100%; /* Stellt sicher, dass der Body die volle Höhe einnimmt */
     margin: 0; /* Entfernt Standardabstand des Browsers */
     padding: 0; /* Entfernt Standardinnenabstand des Browsers */
   /*  background-color: rgb(6, 6, 6); /* Halbtransparenter schwarzer Hintergrund */ 
@@ -221,21 +247,32 @@
     .ebody {
         background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
         width: 100%; /* Bildgröße anpassen */
-
     }
+    .kbody {
+        background: url("bilder/kunst2.jpg") no-repeat center center fixed; /* Hintergrundbild für Kunst */
+        background-size: cover; /* Hintergrundbild wird skaliert */
+    }
+    .header {
+        width: 100%; /* Breite auf 100% begrenzen */
+        padding: auto; /* Entfernt Standardabstand des Browsers */
+        margin-left: 10%; /* Zentriert den Main-Bereich horizontal */
+        margin-top: 0.125rem; /* Abstand nach
     .titel {
         font-size: 2em; /* Schriftgröße des Titels (32px) */
+    }
+    
+        .main {        
+        width: 60%; /* Bildgröße anpassen */
+        padding: 10%; /* Weniger Innenabstand */
     }
     .hmain {
         grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
     }
-    .emain {
-    }
-    .main {        
-        width: 60%; /* Bildgröße anpassen */
+    .emain {   
+        grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
 
-        padding: 10%; /* Weniger Innenabstand */
     }
+
     .bild {
         width: 60%; /* Bildgröße anpassen */
     }
