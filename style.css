@@ -25,7 +25,7 @@ input, button, textarea, select {
 
 
 .body {
-    width: 100%; /* Breite auf 100% begrenzen */
+    max-width: 100%; /* Breite auf 100% begrenzen */
  
   /*  background-color: rgb(6, 6, 6); /* Halbtransparenter schwarzer Hintergrund */ 
     background-position: center ; /* Hintergrundbild wird zentriert und fixiert */
