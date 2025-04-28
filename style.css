@@ -26,9 +26,7 @@ input, button, textarea, select {
 
 .body {
     width: 100%; /* Breite auf 100% begrenzen */
-    height: 100%; /* Stellt sicher, dass der Body die volle Höhe einnimmt */
-    margin: 0; /* Entfernt Standardabstand des Browsers */
-    padding: 0; /* Entfernt Standardinnenabstand des Browsers */
+ 
   /*  background-color: rgb(6, 6, 6); /* Halbtransparenter schwarzer Hintergrund */ 
     background-position: center ; /* Hintergrundbild wird zentriert und fixiert */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
