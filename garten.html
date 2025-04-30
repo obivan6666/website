@@ -2,33 +2,50 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Garten</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garten Projekte</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header>
-    <h1>Garten</h1>
-    <nav><a href="index.html">Zurück zur Startseite</a></nav>
+
+<body class="gbody body">
+  <div class="container"></div>
+  <header class="header">
+    <h1 class="titel">Natur & Garten</h1>
+    <div class="flex-container flex-row nav">      
+      <a class="flex-item nava" href="index.html">Startseite</a>
+      <a class="flex-item nava" href="links.html">Coole Links</a>
+      <a class="flex-item nava" href="kontakt.html">Kontakt</a>
+    </div>
   </header>
-  <main>
-    <section class="projects">
-      <h2>Meine Gartenideen</h2>
-      <ul>
-        <li>Projekt 1 – Titel und Beschreibung</li>
-        <li>Projekt 2 – Titel und Beschreibung</li>
-        <li>Projekt 3 – Titel und Beschreibung</li>
-        <li>Projekt 4 – Titel und Beschreibung</li>
-        <li>Projekt 5 – Titel und Beschreibung</li>
-        <li>Projekt 6 – Titel und Beschreibung</li>
-        <li>Projekt 7 – Titel und Beschreibung</li>
-        <li>Projekt 8 – Titel und Beschreibung</li>
-        <li>Projekt 9 – Titel und Beschreibung</li>
-        <li>Projekt 10 – Titel und Beschreibung</li>
-      </ul>
-    </section>
+
+  <main class="main gmain">
+    <ul class="flex-container flex-column projektliste">
+      <div class="evorcontainer">
+        <h2 class="evortext">
+          Willkommen <hr>Hier sind ein paar Gartenprojekte und Ideen, die ich realisiert habe.
+          Schreibt, ob es euch gefällt, wo man es verwenden könnte
+          oder was man verbessern könnte!
+          Ich freue mich über jede Nachricht! 
+        </h2>
+      </div>   
+      <li class="flex-container flex-row projekt">
+        <a class="flex-item projektlink" href="gartenprojekt1.html">---kommt---</a>
+        <div class="flex-item projekttext">---kommt---</div>
+      </li>
+      <li class="flex-container flex-row projekt">
+        <a class="flex-item projektlink" href="gartenprojekt2.html">---kommt---</a>
+        <div class="flex-item projekttext">---kommt---."</div>
+      </li>
+      <li class="flex-container flex-row projekt">
+        <a class="flex-item projektlink" href="gartenprojekt3.html">---kommt---</a>
+        <div class="flex-item projekttext">---kommt---</div>
+      </li>
+    </ul>
+    
   </main>
-  <footer>
-    <p>&copy; 2025 – Deine Projekte</p>
+
+  <footer class="footer">
+    <p class="footertext">&copy; 2025 Obivans Projekte. Alle Rechte vorbehalten.</p>
   </footer>
 </body>
 </html>
