@@ -7,6 +7,8 @@
 
 html, body {
     height: 100%; /* Stellt sicher, dass der Body die volle Höhe einnimmt */
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -24,152 +26,156 @@ input, button, textarea, select {
 }
 
 
-.body {
-    max-width: 100%; /* Breite auf 100% begrenzen */
- 
-  /*  background-color: rgb(6, 6, 6); /* Halbtransparenter schwarzer Hintergrund */ 
-    background-position: center ; /* Hintergrundbild wird zentriert und fixiert */
-    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
-    text-align: center; /* Zentriert den Text im Header */
+.flex-container {
+    display: flex;
+    justify-content: center; /* Zentriert die Fächer horizontal */
+    background-color: transparent;
+   /* text-align: center; /* Zentriert den Text im Header */
+    gap: 3%; /* Abstand zwischen den Grid-Items */
 
-    /*margin: auto; /* Zentriert den Main-Bereich horizontal */
-   font-family: 'Playfair Display', serif; /* Schriftart für die gesamte Seite */
 }
 
+.flex-item {
+   background-color: transparent;
+    text-align: center;
+}
+
+/* Flex Direction */
+.flex-row {
+    flex-direction: row; /* Standard: Elemente horizontal anordnen */
+}
+
+.flex-column {
+    flex-direction: column; /* Elemente vertikal anordnen */
+}
+
+/*-------------------------START-------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+.body {
+    color: white; /* Textfarbe für Kontrast */
+    font-family: Arial, sans-serif; /* Schriftart */
+
+}
 
 .hbody {
     background: url("bilder/sterne2.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
+    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
 .ebody {
     background: url("bilder/platiene2.png") center center fixed; /* Hintergrundbild mit fester Position */
+    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
 .kbody {
     background: url("bilder/kunst.jpg") no-repeat center center fixed; /* Hintergrundbild für Kunst */
+    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+}
+.gbody {
+    background: url("bilder/wiese.jpg") no-repeat center fixed; /* Hintergrundbild für Kunst */
+    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+
 }
 
 .header {
-    width: 100%; /* Breite auf 100% begrenzen */
-    padding: auto; 
-
     text-align: center; /* Zentriert den Text im Header */
-    font-family: Courier, monospace; /* Schriftart für den Header */
-    font-weight: bold; /* Fettgedruckter Text */
-    background-color: rgba(0, 0, 0, 0.3); /* Halbtransparenter schwarzer Hintergrund */
-    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */ 
-  background-position: center;
- 
-    color: white; /* Textfarbe weiß */
+    background-color: rgba(0, 0, 0, 0.35); /* Halbtransparenter grauer Hintergrund */
+    padding-top: 3%; /* Abstand nach oben (10%) */
 }
+.eheader {
+    background-color: rgba(22, 47, 24, 0.35); /* Halbtransparenter grauer Hintergrund */
 
+}
+.gheader {
+    background-color: rgba(16, 56, 32, 0.35); /* Halbtransparenter grauer Hintergrund */
+  
+}
 .titel {
+    font-family: 'Courier New', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif; /* Schriftart */
     font-size: 4rem; /* Schriftgröße des Titels (32px) */
     letter-spacing: 0.4rem; /* Abstand zwischen Buchstaben (5px) */
-    background-color: rgba(83, 78, 126, 0.7); /* Halbtransparenter grauer Hintergrund */
-   background-position: center;
- margin-left: 10%; /* Abstand links */
- margin-right: 10%; /* Abstand rechts */
-    border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
-    padding: 0.625rem; /* Innenabstand (10px) */
-   /* display: inline-block; /* Blockelement mit Inline-Verhalten */
+    background-color: rgba(5, 2, 27, 0.4); /* Halbtransparenter grauer Hintergrund */
+    margin: 2% 15% 3% 15% ; /* Abstand links */
+    border-radius:0.3rem ;
+    box-shadow: 0 0 0.7rem rgba(155, 155, 155, 1); /* Schatteneffekt (7px) */
+
 }
 
 .nav {
-    display: flex; /* Flexbox-Layout für die Navigation */
-    margin: auto; /* Zentriert den Main-Bereich horizontal */
+    gap: 10%; /* Abstand zwischen den Fächern */
 
-    justify-content: center; /* Zentriert die Navigation horizontal */
-    gap: 1.5rem; /* Abstand zwischen den Navigationselementen (20px) */
+
 }
 
 .nava {
-    font-size: 1rem; /* Schriftgröße der Navigationslinks (16px) */
-    color: #3ccc9f; /* Textfarbe */
+    font-size: 1.5em; /* Schriftgröße der Navigationslinks (16px) */
+    color: #1ed098; /* Textfarbe */
     text-decoration: none; /* Entfernt die Unterstreichung */
-    background-color: rgba(6, 6, 6, 0.5); /* Halbtransparenter schwarzer Hintergrund */
+    background-color: rgba(6, 6, 6, 0.45); /* Halbtransparenter schwarzer Hintergrund */
     padding: 0.625rem 0.9375rem; /* Innenabstand: oben/unten 10px, links/rechts 15px */
     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
     box-shadow: 0 0 0.4375rem rgba(155, 155, 155, 1); /* Schatteneffekt (7px) */
+    font-weight: bold; /* Fettgedruckter Text */
 }
 
 .nava:hover {
-    background-color: #3ccc9f; /* Hintergrundfarbe beim Hover */
-    color: white; /* Textfarbe beim Hover */
+    background-color: #1b5241; /* Hintergrundfarbe beim Hover */
+    color: rgb(173, 166, 166); /* Textfarbe beim Hover */
 }
 
-.header2 {
-    padding: 1.25rem; /* Innenabstand für den Header (20px) */
-    text-align: center; /* Zentriert den Text im Header */
-    font-family: Courier, monospace; /* Schriftart für den Header */
-    width: 70%; /* Breite auf 100% begrenzen */
-    background-color: rgba(35, 125, 29, 0.4); /* Halbtransparenter grauer Hintergrund */
-    border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
-    padding: 0.625rem; /* Innenabstand (10px) */
-    background-size: center; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
-    background-position: center;
-    margin-left: 10%;
-    margin-right: 10%; /* Abstand links und rechts */
-  }
 
-.titel2 {
-    color: rgb(223, 239, 204); /* Textfarbe weiß */
-    font-size: 0.8rem; /* Schriftgröße des Titels (12.8px) */
-  /* display: inline-block; /* Blockelement mit Inline-Verhalten */
-    text-align: center; /* Zentriert den Text im Header */
-
-}
-
-.main {
-    margin-top: 0.625rem; /* Abstand nach oben (10px) */
-    width: 80%; /* Breite des Main-Bereichs */
-    margin: auto; /* Zentriert den Main-Bereich horizontal */
-    display: grid; /* Grid-Layout für die Kategorien */
-    gap: 1.875rem; /* Abstand zwischen den Grid-Elementen (30px) */
-    padding: 0.625rem; /* Innenabstand (10px) */
-    text-align: center; /* Zentriert den Text im Header */
-
-}
 .hmain {
-  
-    grid-template-columns: repeat(2, 2fr); /* Zwei Spalten mit gleichmäßiger Verteilung */
+    background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
 }
 .emain {
-    
-    grid-template-rows: repeat(1, 2fr); /* Zwei Spalten mit ungleichmäßiger Verteilung */
- 
+    background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
 }
-.kmain {
-    
-    grid-template-rows: repeat(1, 2fr); /* Zwei Spalten mit ungleichmäßiger Verteilung */
- 
+.kmain {    
+    background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
+}
+.gmain {
+    background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
+}
+
+.aufteilung {
+    background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
+    margin-top: 10%;
+
 }
 .kategorie {
-    display: flex; /* Flexbox-Layout für die Kategorie-Elemente */
-    flex-direction: column; /* Stapelt die Inhalte vertikal (Bild oben, Link unten) */
-    align-items: center; /* Zentriert die Inhalte horizontal */
-    text-align: center; /* Zentriert den Text */
-    padding: 1.875rem; /* Innenabstand (30px) */
+    background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
+    margin-bottom: 7%;
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+    align-items: center; /* Zentriert den Inhalt vertikal */
 }
 
 .bild {
-    width: 50%; /* Breite des Bildes */
-    height: auto; /* Höhe wird proportional zur Breite angepasst */
+    width: auto; /* Breite des Bildes */
+    height: 10em; /* Höhe wird proportional zur Breite angepasst */
     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
-}
 
+    
+
+}
+.bild:hover {
+    transform: scale(1.05); /* Vergrößert das Bild beim Hover */
+    transition: transform 0.3s ease; /* Sanfte Übergangsanimation */
+}
 .link {
-    margin-top: 0.5rem; /* Abstand nach oben (10px) */
-    font-size: 1.5rem; /* Schriftgröße (16px) */
+    text-align: center; /* Zentriert den Text */
+    width: 25%; /* Breite des Bildes */
+
     font-weight: bold; /* Fettgedruckter Text */
     color: rgb(227, 209, 120); /* Textfarbe */
     text-decoration: none; /* Entfernt die Unterstreichung */
     background-color: rgba(6, 6, 6, 0.8); /* Halbtransparenter schwarzer Hintergrund */
     box-shadow: 0 0 1.5625rem rgb(240, 229, 229); /* Schatteneffekt (25px) */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
+    padding: 0.3em;
+    margin: 3em 0.3em 3em 1em; /* Abstand links */
 }
 
 .link:hover {
     background-color: #94c7d1; /* Hintergrundfarbe beim Hover */
-    color: rgb(48, 31, 5); /* Textfarbe beim Hover */
+    color: rgb(72, 46, 6); /* Textfarbe beim Hover */
 }
 
 .footer  {
@@ -193,43 +199,69 @@ input, button, textarea, select {
 /*------------------------ELEKTRONIK  -------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------*/
 
+.projektliste {
+    margin-left: 10%; /* Zentriert den Main-Bereich horizontal */
+    margin-right: 10%; /* Abstand links und rechts */
+    margin-top: 1rem; /* Abstand nach oben (2px) */
+    padding: 0.625rem; /* Innenabstand (10px) */
+    gap: 2rem;
+}
+
+.evorcontainer {
+    padding: 1.25rem; /* Innenabstand für den Header (20px) */
+    font-family: Courier, monospace; /* Schriftart für den Header */
+    background-color: rgba(35, 125, 29, 0.35); /* Halbtransparenter grauer Hintergrund */
+    border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
+    padding: 0.625rem; /* Innenabstand (10px) */
+    margin: 2% 13% 3% 13% ; /* Abstand links */
+}
+
+.evortext {
+    color: rgb(223, 239, 204); /* Textfarbe weiß */
+    font-size: 0.9rem; /* Schriftgröße des Titels (12.8px) */
+  /* display: inline-block; /* Blockelement mit Inline-Verhalten */
+    text-align: center; /* Zentriert den Text im Header */
+                   
+}
+
+
 
 .projekt {
-    display: flex; /* Flexbox-Layout für die Kategorie-Elemente */
-    flex-direction: row; /* Stapelt die Inhalte vertikal (Bild oben, Link unten) */
-    margin-left: 10%; /* Zentriert den Main-Bereich horizontal */
-    margin-top: 0.125rem; /* Abstand nach oben (2px) */
-    width: 100%; /* Breite des Bildes auf 25% des Containers begrenzt */
+    margin-left: 5%; /* Zentriert den Main-Bereich horizontal */
     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
     font-family: Courier, monospace; /* Schriftart für den Header */
+  
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+    align-items: center; /* Zentriert den Inhalt vertikal */
 }
 
 .projektlink {
-    display: inline-block; /* Blockelement mit Inline-Verhalten */
-    font-size: 1rem; /* Schriftgröße */
+    width: 40%;
+    font-size: 1.1rem; /* Schriftgröße */
     font-weight: bold; /* Fettgedruckter Text */
-    color: rgb(227, 209, 120); /* Textfarbe */
+    color: rgb(218, 203, 133); /* Textfarbe */
     text-decoration: none; /* Entfernt die Unterstreichung */
-    background-color: rgba(6, 6, 6, 0.8); /* Halbtransparenter schwarzer Hintergrund */
-    box-shadow: 0 0 1.5625rem rgb(240, 229, 229); /* Schatteneffekt (25px) */
+    background-color: rgba(6, 6, 6, 0.6); /* Halbtransparenter schwarzer Hintergrund */
+    box-shadow: 0 0 1.5625rem rgb(241, 237, 237); /* Schatteneffekt (25px) */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
-    align-items: center; /* Zentriert die Inhalte horizontal */
+    padding: 1%; /* Innenabstand: oben/unten 10px, links/rechts 15px */
 
-    text-align: center; /* Zentriert den Text */
 
 }
 
 .projektlink:hover {
-    background-color: #94c7d1; /* Hintergrundfarbe beim Hover */
-    color: rgb(48, 31, 5); /* Textfarbe beim Hover */
+    background-color: #55e669; /* Hintergrundfarbe beim Hover */
+    color: rgb(19, 43, 19); /* Textfarbe beim Hover */
 }
 
 .projekttext {
-    color: rgb(223, 239, 204); /* Textfarbe weiß */
+   /* width: 60%;*/
+    color: rgb(255, 255, 255); /* Textfarbe weiß */
     font-size: 0.9rem; /* Schriftgröße des Titels */
-    background-color: rgba(35, 125, 29, 0.3 ); /* Halbtransparenter grauer Hintergrund */
+    background-color: rgba(35, 125, 29, 0.35 ); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
+
 }
 
 
@@ -254,14 +286,17 @@ input, button, textarea, select {
         width: 100%; /* Breite auf 100% begrenzen */
         padding: auto; /* Entfernt Standardabstand des Browsers */
         margin-left: 10%; /* Zentriert den Main-Bereich horizontal */
-        margin-top: 0.125rem; /* Abstand nach
+        margin-top: 0.125rem; /* Abstand nach*/
+    
+    }
     .titel {
-        font-size: 2em; /* Schriftgröße des Titels (32px) */
+       /* font-size: 50rem; /* Schriftgröße des Titels (32px) */
+       font-size: 2em; /* Schriftgröße des Titels (32px) */
     }
     
-        .main {        
-        width: 60%; /* Bildgröße anpassen */
-        padding: 10%; /* Weniger Innenabstand */
+    .main {        
+    width: 60%; /* Bildgröße anpassen */
+    padding: 10%; /* Weniger Innenabstand */
     }
     .hmain {
         grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
@@ -272,7 +307,7 @@ input, button, textarea, select {
     }
 
     .bild {
-        width: 60%; /* Bildgröße anpassen */
+        width: 40%; /* Bildgröße anpassen */
     }
    
 } 
@@ -289,7 +324,7 @@ input, button, textarea, select {
     
     }
     .titel {
-        font-size: 0.6em; /* Schriftgröße des Titels (32px) */
+        font-size: 2em; /* Schriftgröße des Titels (32px) */
     }
    .main{
         padding: 0.4rem; /* Weniger Innenabstand */
@@ -301,11 +336,10 @@ input, button, textarea, select {
     }
 
     .bild {
-        width: 70%; /* Bildgröße anpassen */
+        width: 80%; /* Bildgröße anpassen */
     }
 
     .schrift {
         font-size: 0.7rem; /* Schriftgröße reduzieren */
     }
-
 }

@@ -10,29 +10,39 @@
 <body class="body kbody">
   <header class="header">
     <h1 class="titel">Kunst</h1>
-    <nav class="nav">      
-      <a class="nava" href="index.html">Startseite</a>
-      <a class="nava" href="links.html">Coole Links</a>
-      <a class="nava" href="kontakt.html">Kontakt</a>
-    </nav>
+    <div class=" flex-container flex-row nav">      
+      <a class=" flex-item nava" href="index.html">Startseite</a>
+      <a class=" flex-item nava" href="links.html">Coole Links</a>
+      <a class=" flex-item nava" href="kontakt.html">Kontakt</a>
+    </div>
   </header>
-  <header class="header2">
-    <h2 class="titel2">
-        Willkommen <hr>Hier sind ein paar Kunstprojekte und Ideen, die ich realisiert habe.
-        Schreibt, ob es euch gefällt, wo man es verwenden könnte
-        oder was man verbessern könnte!
-        Ich freue mich über jede Nachricht! 
-    </h2>
-  </header>
+
   <main class="main kmain">
-    <div class="projekt">
-      <a class="projektlink" href="kunstprojekt1.html">Abstrakte Malerei</a>
-      <li class="projekttext">Ein Projekt, bei dem verschiedene Farben und Formen kombiniert werden, um abstrakte Kunst zu schaffen.</li>
-    </div>
-    <div class="projekt">
-      <a class="projektlink" href="kunstprojekt2.html">Skulpturen aus Recyclingmaterial</a>
-      <li class="projekttext">Kunstwerke, die aus recycelten Materialien wie Plastik und Metall erstellt wurden.</li>
-    </div>
+    <ul class="flex-container flex-column projektliste">
+      <div class="evorcontainer">
+        <h2 class="evortext">
+          Willkommen <hr>Hier sind ein paar Kunstprojekte und Ideen, die ich realisiert habe.
+          Schreibt, ob es euch gefällt, wo man es verwenden könnte
+          oder was man verbessern könnte!
+          Ich freue mich über jede Nachricht! 
+        </h2>
+      </div>   
+      <li class="flex-container flex-row projekt">
+        <a class="flex-item projektlink" href="fadenbild.html">Fadenbilder</a>
+        <div class="flex-item projekttext">
+          Fadenbilder, fäden werden in geometrischen formen auf ein blatt genäht.<br>
+          dabei entstehen  3d änliche efekte.
+        </div>
+      </li>
+      <li class="flex-container flex-row projekt">
+        <a class="flex-item projektlink" href="kunstprojekt2.html">..kmmt.... </a>
+        <div class="flex-item projekttext"> ..kommt.... </div>
+      </li>
+      <li class="flex-container flex-row projekt">
+        <a class="flex-item projektlink" href="kunstprojekt3.html">Schöne Bilder & Fotos</a>
+        <div class="flex-item projekttext">kommt</div>
+      </li>      
+    </ul>
   </main>
   <footer class="footer">
     <p class="footertext">&copy; 2025 Obivans Projekte. Alle Rechte vorbehalten.</p>
