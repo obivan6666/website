@@ -10,29 +10,36 @@
 <body class="body ebody">
   <header class="header">
     <h1 class="titel">Elektronik</h1>
-    <nav class="nav">      
-      <a class="nava" href="index.html">Startseite</a>
-      <a class="nava" href="links.html">Coole Links</a>
-      <a class="nava" href="kontakt.html">Kontakt</a>
-    </nav>
+    <div class=" flex-container flex-row nav">      
+      <a class=" flex-item nava" href="index.html">Startseite</a>
+      <a class=" flex-item nava" href="links.html">Coole Links</a>
+      <a class=" flex-item nava" href="kontakt.html">Kontakt</a>
+    </div>
   </header>
-  <header class="header2">
-    <h2 class="titel2">
-        Hallo <hr>Hier sind ein paar Projekte und Ideen, die ich realisiert habe.
-        Schreibt, ob es euch gefällt, wo man es verwenden könnte
-        oder was man verbessern könnte!
-        Ich freue mich über jede Nachricht! 
-    </h2>
-  </header>
+
   <main class="main emain">
-    <div class="projekt">
-      <a class="projektlink" href="eprojekt1.html">Knigt Rider (Arduino)</a>
-      <li class="projekttext" >5 leds, die nach dem knight rider muster blinken.</li>
-    </div>
-    <div class="projekt">
-      <a class="projektlink" href="eprojekt2.html">E-Würfel (Arduino)</a>
-      <li class="projekttext">7 leds,die mit einem knopfdruck, die augen des würfels simulieren.</li>
-    </div>
+    <ul class="flex-container flex-column projektliste">        
+      <div class="evorcontainer">
+        <h2 class="evortext">
+          Hallo <hr>Hier sind ein paar Projekte und Ideen, die ich realisiert habe.
+          Schreibt, ob es euch gefällt, wo man es verwenden könnte
+          oder was man verbessern könnte!
+          Ich freue mich über jede Nachricht! 
+        </h2>
+      </div>         
+      <li class="flex-container flex-row projekt">
+        <a class="flex-item projektlink" href="projekt_KnightRider.html">Knight Rider (Arduino)</a>
+        <div class="flex-item projekttext">5 LEDs, die nach dem Knight Rider Muster blinken.</div>
+      </li>
+      <li class="flex-container flex-row projekt">
+        <a class="flex-item projektlink" href="eprojekt2.html">E-Würfel (Arduino)</a>
+        <div class="flex-item projekttext">7 LEDs, die mit einem Knopfdruck die Augen des Würfels simulieren.</div>
+      </li>
+      <li class="flex-container flex-row projekt">
+        <a class="flex-item projektlink" href="eprojekt3.html">--------</a>
+        <div class="flex-item projekttext">---------</div>
+      </li>              
+    </ul>
   </main>
   <footer class="footer">
     <p class="footertext">&copy; 2025 Obivans Projekte. Alle Rechte vorbehalten.</p>
