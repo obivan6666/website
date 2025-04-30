@@ -10,41 +10,43 @@
 <body class="body hbody">
   <header class="header">
     <h1 class="titel">Obivans Projekte</h1>
-    <nav class="nav">      
-      <a class="nava" href="index.html">Startseite</a>
-      <a class="nava" href="links.html">Coole Links</a>
-      <a class="nava" href="kontakt.html">Kontakt</a>
-    </nav>
+    <div class=" flex-container flex-row nav">      
+      <a class=" flex-item nava" href="index.html">Startseite</a>
+      <a class=" flex-item nava" href="links.html">Coole Links</a>
+      <a class=" flex-item nava" href="kontakt.html">Kontakt</a>
+    </div>
   </header>
 
   <main class="main hmain">
-    <div class="kategorie">  
-      <a href="elektronik.html">
-        <img class="bild" src="bilder/elektronik_hintergrundKlein.jpg" alt="Elektronik Icon">
-      </a>
-      <a class="link" href="elektronik.html">Elektronik</a>
-    </div>
-
-    <div class="kategorie">
-      <a href="kunst.html">
-        <img class="bild"  src="bilder/kunst_hintergrundK.jpg" alt="Kunst Icon"> 
-      </a>
-      <a class="link" href="kunst.html">Kunst</a>
-    </div>
+    <div class="flex-container flex-column aufteilung">  
+      <div class="flex-container flex-row kategorie">  
+        <a class="flex-item" href="elektronik.html">
+          <img class="bild" src="bilder/elektronik_hintergrundKlein.jpg" alt="Elektronik Icon">
+        </a>
+        <a class="flex-item link" href="elektronik.html">Elektronik Arduino Akku & Solar</a>
+      </div>
+      <div class="flex-container flex-row kategorie">  
+        <a class="flex-item link" href="kunst.html">Kunst</a>
+        <a href="kunst.html">
+         <img class="bild"  src="bilder/kunst_hintergrundK.jpg" alt="Kunst Icon"> 
+       </a>
+      </div>
  
-    <div class="kategorie">
-      <a href="garten.html">
-        <img class="bild" src="bilder/garten_hintergrundK.jpg" alt="Garten Icon">
-      </a>
-      <a class="link" href="garten.html">Natur & Garten</a>
+      <div class="flex-container flex-row kategorie">  
+        <a class="flex-item" href="garten.html">
+          <img class="bild" src="bilder/garten_hintergrundK.jpg" alt="Garten Icon">
+        </a>
+        <a class="flex-item link" href="garten.html">Natur & Garten</a>
+      </div>
+
+      <div class="flex-container flex-row kategorie">  
+        <a class="flex-item link" href="sonstiges.html">Sonstiges</a>
+        <a class="flex-item" href="sonstiges.html">
+          <img class="bild" src="bilder/sonstiges_hintergrundK.jpg" alt="Sonstiges Icon"> 
+        </a>
+      </div>
     </div>
 
-    <div class="kategorie">
-      <a href="sonstiges.html">
-        <img class="bild" src="bilder/sonstiges_hintergrundK.jpg" alt="Sonstiges Icon"> 
-      </a>
-      <a class="link" href="sonstiges.html">Sonstiges</a>
-    </div>
   </main>
   
   <footer class="footer">
