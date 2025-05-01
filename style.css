@@ -270,23 +270,23 @@ input, button, textarea, select {
 
 @media (max-width: 768px) and (orientation: portrait) {
     .hbody {
-        width: 100%; /* Bildgröße anpassen */
+       /* width: 100%; /* Bildgröße anpassen */
 
 
     }
     .ebody {
         background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
-        width: 100%; /* Bildgröße anpassen */
+      /*  width: 100%; /* Bildgröße anpassen */
     }
     .kbody {
         background: url("bilder/kunst2.jpg") no-repeat center center fixed; /* Hintergrundbild für Kunst */
         background-size: cover; /* Hintergrundbild wird skaliert */
     }
     .header {
-        width: 100%; /* Breite auf 100% begrenzen */
-        padding: auto; /* Entfernt Standardabstand des Browsers */
-        margin-left: 10%; /* Zentriert den Main-Bereich horizontal */
-        margin-top: 0.125rem; /* Abstand nach*/
+       /* width: 100%; /* Breite auf 100% begrenzen */
+       /* padding: auto; /* Entfernt Standardabstand des Browsers */
+      /*/*  margin-left: 10%; /* Zentriert den Main-Bereich horizontal */
+      /*  margin-top: 0.125rem; /* Abstand nach*/
     
     }
     .titel {
@@ -295,8 +295,8 @@ input, button, textarea, select {
     }
     
     .main {        
-    width: 60%; /* Bildgröße anpassen */
-    padding: 10%; /* Weniger Innenabstand */
+        width: 60%; /* Bildgröße anpassen */
+        padding: 10%; /* Weniger Innenabstand */
     }
     .hmain {
         grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
