@@ -72,6 +72,7 @@ input, button, textarea, select {
 .gbody {
     background: url("bilder/wiese.jpg") no-repeat center fixed; /* Hintergrundbild für Kunst */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+    object-position: top right; /* Positioniert den Inhalt oben links */
 
 }
 
