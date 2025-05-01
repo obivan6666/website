@@ -290,12 +290,11 @@ input, button, textarea, select {
     
     }
     .titel {
-       /* font-size: 50rem; /* Schriftgröße des Titels (32px) */
-      /* font-size: 2em; /* Schriftgröße des Titels (32px) */
+       font-size: 2em; /* Schriftgröße des Titels (32px) */
     }
     .nava {
       
-    font-size: 1.0em; /* Schriftgröße der Navigationslinks (16px) */
+     font-size: 1.0em; /* Schriftgröße der Navigationslinks (16px) */
        /* padding: 0.625rem 0.9375rem; /* Innenabstand: oben/unten 10px, links/rechts 15px */
     }
     .main {        
