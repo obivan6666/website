@@ -70,8 +70,7 @@ input, button, textarea, select {
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
 .gbody {
-    background: url("bilder/wiese.jpg") no-repeat center right fixed; /* Hintergrundbild für Kunst */
-    object-fit: cover; 
+    background: url("bilder/wieseOrg.jpg") no-repeat center right; /* Hintergrundbild für Kunst */
 
 }
 
@@ -207,7 +206,7 @@ input, button, textarea, select {
     gap: 2rem;
 }
 
-.evorcontainer {
+.vorcontainer {
     padding: 1.25rem; /* Innenabstand für den Header (20px) */
     font-family: Courier, monospace; /* Schriftart für den Header */
     background-color: rgba(35, 125, 29, 0.35); /* Halbtransparenter grauer Hintergrund */
@@ -216,7 +215,7 @@ input, button, textarea, select {
     margin: 2% 13% 3% 13% ; /* Abstand links */
 }
 
-.evortext {
+.vortext {
     color: rgb(223, 239, 204); /* Textfarbe weiß */
     font-size: 0.9rem; /* Schriftgröße des Titels (12.8px) */
   /* display: inline-block; /* Blockelement mit Inline-Verhalten */
@@ -282,7 +281,7 @@ input, button, textarea, select {
     .gbody {
 
    
-        object-position: right; /* Positioniert den Inhalt oben links */
+     /*   object-position: right; /* Positioniert den Inhalt oben links */
 
     }
     .titel {
