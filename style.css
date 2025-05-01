@@ -275,12 +275,12 @@ input, button, textarea, select {
 
     }
     .ebody {
-        background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
+      /*  background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
       /*  width: 100%; /* Bildgröße anpassen */
     }
     .kbody {
-        background: url("bilder/kunst2.jpg") no-repeat center center fixed; /* Hintergrundbild für Kunst */
-        background-size: cover; /* Hintergrundbild wird skaliert */
+     /*   background: url("bilder/kunst2.jpg") no-repeat center center fixed; /* Hintergrundbild für Kunst */
+      /*  background-size: cover; /* Hintergrundbild wird skaliert */
     }
     .header {
        /* width: 100%; /* Breite auf 100% begrenzen */
@@ -293,7 +293,11 @@ input, button, textarea, select {
        /* font-size: 50rem; /* Schriftgröße des Titels (32px) */
       /* font-size: 2em; /* Schriftgröße des Titels (32px) */
     }
-    
+    .nava {
+      
+    font-size: 1.0em; /* Schriftgröße der Navigationslinks (16px) */
+       /* padding: 0.625rem 0.9375rem; /* Innenabstand: oben/unten 10px, links/rechts 15px */
+    }
     .main {        
        /* width: 60%; /* Bildgröße anpassen */
        /* padding: 10%; /* Weniger Innenabstand */
