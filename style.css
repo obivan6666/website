@@ -295,8 +295,8 @@ input, button, textarea, select {
     }
     
     .main {        
-        width: 60%; /* Bildgröße anpassen */
-        padding: 10%; /* Weniger Innenabstand */
+       /* width: 60%; /* Bildgröße anpassen */
+       /* padding: 10%; /* Weniger Innenabstand */
     }
     .hmain {
        /* grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
@@ -307,7 +307,7 @@ input, button, textarea, select {
     }
 
     .bild {
-        width: 40%; /* Bildgröße anpassen */
+       /* width: 40%; /* Bildgröße anpassen */
     }
    
 } 
