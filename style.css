@@ -62,7 +62,7 @@ input, button, textarea, select {
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
 .ebody {
-    background: url("bilder/platiene2.png") center center fixed; /* Hintergrundbild mit fester Position */
+    background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
 .kbody {
@@ -271,21 +271,16 @@ input, button, textarea, select {
 @media (max-width: 768px) and (orientation: portrait) {
     .hbody {
        /* width: 100%; /* Bildgröße anpassen */
-
-
     }
     .ebody {
-    width: 100%; /* Bildgröße anpassen */
+    /* width: 80%; /* Bildgröße anpassen */
     }
     .kbody {
      /*   background: url("bilder/kunst2.jpg") no-repeat center center fixed; /* Hintergrundbild für Kunst */
       /*  background-size: cover; /* Hintergrundbild wird skaliert */
     }
-    .header {
-       /* width: 100%; /* Breite auf 100% begrenzen */
-       /* padding: auto; /* Entfernt Standardabstand des Browsers */
-      /*/*  margin-left: 10%; /* Zentriert den Main-Bereich horizontal */
-      /*  margin-top: 0.125rem; /* Abstand nach*/
+    .gbody {
+        object-fit: cover; 
     
     }
     .titel {
@@ -296,13 +291,7 @@ input, button, textarea, select {
      font-size: 1rem; /* Schriftgröße der Navigationslinks (16px) */
        /* padding: 0.625rem 0.9375rem; /* Innenabstand: oben/unten 10px, links/rechts 15px */
     }
-    .main {        
-       /* width: 60%; /* Bildgröße anpassen */
-       /* padding: 10%; /* Weniger Innenabstand */
-    }
-    .hmain {
-       /* grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
-    }
+   
     .emain {   
        /* grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
     }
@@ -323,26 +312,5 @@ input, button, textarea, select {
     .ebody {
         background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
        /* width: 100%; /* Bildgröße anpassen */
-
-    
-    }
-    .titel {
-       /* font-size: 2em; /* Schriftgröße des Titels (32px) */
-    }
-   .main{
-       /* padding: 0.4rem; /* Weniger Innenabstand */
-    }
-  
-    .hmain { 
-       
-    /*width: 65%; /* Breite auf 100% begrenzen */
-    }
-
-    .bild {
-       /* width: 80%; /* Bildgröße anpassen */
-    }
-
-    .schrift {
-       /* font-size: 0.7rem; /* Schriftgröße reduzieren */
     }
 }
