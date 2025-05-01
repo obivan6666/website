@@ -72,7 +72,7 @@ input, button, textarea, select {
 .gbody {
     background: url("bilder/wiese.jpg") no-repeat center fixed; /* Hintergrundbild für Kunst */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
-    object-position: top right; /* Positioniert den Inhalt oben links */
+
 
 }
 
@@ -281,8 +281,11 @@ input, button, textarea, select {
       /*  background-size: cover; /* Hintergrundbild wird skaliert */
     }
     .gbody {
+        background-size: none; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+
         object-fit: cover; 
-    
+        object-position: right; /* Positioniert den Inhalt oben links */
+
     }
     .titel {
        font-size: 2rem; /* Schriftgröße des Titels (32px) */
@@ -300,7 +303,7 @@ input, button, textarea, select {
      }
     .bild {
     width: auto; /* Breite des Bildes */
-    height: 5em; /* Höhe wird proportional zur Breite angepasst */
+    height: 6em; /* Höhe wird proportional zur Breite angepasst */
     }
    
 } 
