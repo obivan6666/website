@@ -291,7 +291,7 @@ input, button, textarea, select {
     }
     .titel {
        /* font-size: 50rem; /* Schriftgröße des Titels (32px) */
-       font-size: 2em; /* Schriftgröße des Titels (32px) */
+      /* font-size: 2em; /* Schriftgröße des Titels (32px) */
     }
     
     .main {        
@@ -299,10 +299,10 @@ input, button, textarea, select {
         padding: 10%; /* Weniger Innenabstand */
     }
     .hmain {
-        grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
+       /* grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
     }
     .emain {   
-        grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
+       /* grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
 
     }
 
