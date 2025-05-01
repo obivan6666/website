@@ -303,7 +303,7 @@ input, button, textarea, select {
      }
     .bild {
     width: auto; /* Breite des Bildes */
-    height: 6em; /* Höhe wird proportional zur Breite angepasst */
+    height: 5.7em; /* Höhe wird proportional zur Breite angepasst */
     }
    
 } 
