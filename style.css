@@ -70,7 +70,7 @@ input, button, textarea, select {
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
 .gbody {
-    background: url("bilder/wiese.jpg") no-repeat center fixed; /* Hintergrundbild für Kunst */
+    background: url("bilder/wiese.jpg") no-repeat center right fixed; /* Hintergrundbild für Kunst */
     object-fit: cover; 
 
 }
