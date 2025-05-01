@@ -318,32 +318,32 @@ input, button, textarea, select {
 /*-----------------QUER----------------------------- */
 @media (max-width: 768px) and (orientation: landscape) {
     .hbody {
-        width: 100%; /* Bildgröße anpassen */
+     /*   width: 100%; /* Bildgröße anpassen */
 
     }
     .ebody {
         background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
-        width: 100%; /* Bildgröße anpassen */
+       /* width: 100%; /* Bildgröße anpassen */
 
     
     }
     .titel {
-        font-size: 2em; /* Schriftgröße des Titels (32px) */
+       /* font-size: 2em; /* Schriftgröße des Titels (32px) */
     }
    .main{
-        padding: 0.4rem; /* Weniger Innenabstand */
+       /* padding: 0.4rem; /* Weniger Innenabstand */
     }
   
     .hmain { 
        
-    width: 65%; /* Breite auf 100% begrenzen */
+    /*width: 65%; /* Breite auf 100% begrenzen */
     }
 
     .bild {
-        width: 80%; /* Bildgröße anpassen */
+       /* width: 80%; /* Bildgröße anpassen */
     }
 
     .schrift {
-        font-size: 0.7rem; /* Schriftgröße reduzieren */
+       /* font-size: 0.7rem; /* Schriftgröße reduzieren */
     }
 }
