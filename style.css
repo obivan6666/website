@@ -309,8 +309,8 @@ input, button, textarea, select {
     .gmain {
      }
     .bild {
-       /*   
-        width: 40%; /* Bildgröße anpassen */
+    width: auto; /* Breite des Bildes */
+    height: 9em; /* Höhe wird proportional zur Breite angepasst */
     }
    
 } 
