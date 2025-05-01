@@ -275,8 +275,7 @@ input, button, textarea, select {
 
     }
     .ebody {
-      /*  background: url("bilder/platiene3.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
-      /*  width: 100%; /* Bildgröße anpassen */
+    width: 100%; /* Bildgröße anpassen */
     }
     .kbody {
      /*   background: url("bilder/kunst2.jpg") no-repeat center center fixed; /* Hintergrundbild für Kunst */
@@ -308,7 +307,6 @@ input, button, textarea, select {
        /* grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
     }
     .gmain {
-        background-position: right center; /* Hintergrundbild für Kunst */
      }
     .bild {
        /*   
