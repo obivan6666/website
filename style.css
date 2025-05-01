@@ -306,11 +306,13 @@ input, button, textarea, select {
     }
     .emain {   
        /* grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
-
     }
-
+    .gmain {
+        background-position: right center; /* Hintergrundbild für Kunst */
+     }
     .bild {
-       /* width: 40%; /* Bildgröße anpassen */
+       /*   
+        width: 40%; /* Bildgröße anpassen */
     }
    
 } 
