@@ -53,6 +53,9 @@ input, button, textarea, select {
 /*-------------------------START-------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------*/
 .body {
+    
+    color: white; /* Textfarbe für Kontrast */
+    font-family: Arial, sans-serif; /* Schriftart */
 
 }
 
