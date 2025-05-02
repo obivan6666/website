@@ -53,9 +53,6 @@ input, button, textarea, select {
 /*-------------------------START-------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------*/
 .body {
-    
-    color: white; /* Textfarbe für Kontrast */
-    font-family: Arial, sans-serif; /* Schriftart */
 
 }
 
@@ -72,7 +69,7 @@ input, button, textarea, select {
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
 .gbody {
-    background: url("bilder/wieseOrg.jpg") no-repeat center center fixd; /* Hintergrundbild für Kunst */
+    background: url("bilder/wieseOrg.jpg") no-repeat center center ; /* Hintergrundbild für Kunst */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
 
