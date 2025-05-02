@@ -72,8 +72,8 @@ input, button, textarea, select {
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
 .gbody {
-    background: url("bilder/wieseOrg.jpg") no-repeat center right; /* Hintergrundbild für Kunst */
-
+    background: url("bilder/wieseOrg.jpg") no-repeat center center fixd; /* Hintergrundbild für Kunst */
+    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
 
 .header {
@@ -136,11 +136,7 @@ input, button, textarea, select {
     background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
 }
 
-.aufteilung {
-    background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
-    margin-top: 10%;
 
-}
 .kategorie {
     background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
     margin-bottom: 7%;
@@ -281,9 +277,9 @@ input, button, textarea, select {
       /*  background-size: cover; /* Hintergrundbild wird skaliert */
     }
     .gbody {
-
+        background: url("bilder/wieseOrg.jpg") no-repeat right; /* Hintergrundbild für Kunst */
+        background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
    
-     /*   object-position: right; /* Positioniert den Inhalt oben links */
 
     }
     .titel {
