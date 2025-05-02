@@ -92,7 +92,7 @@ input, button, textarea, select {
 .titel {
     font-family: 'Courier New', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif; /* Schriftart */
     font-size: 4rem; /* Schriftgröße des Titels (32px) */
-    letter-spacing: 0.4rem; /* Abstand zwischen Buchstaben (5px) */
+    letter-spacing: 0.3rem; /* Abstand zwischen Buchstaben (5px) */
     background-color: rgba(5, 2, 27, 0.4); /* Halbtransparenter grauer Hintergrund */
     margin: 2% 15% 3% 15% ; /* Abstand links */
     border-radius:0.3rem ;
@@ -101,7 +101,7 @@ input, button, textarea, select {
 }
 
 .nav {
-    gap: 10%; /* Abstand zwischen den Fächern */
+    gap: 8%; /* Abstand zwischen den Fächern */
 
 
 }
