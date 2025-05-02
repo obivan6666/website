@@ -313,4 +313,9 @@ input, button, textarea, select {
         background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
   
     }
+    .gbody{
+        background: url("bilder/wieseOrg.jpg") no-repeat right; /* Hintergrundbild für Kunst */
+        background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+
+    }
 }
