@@ -192,17 +192,17 @@ input, button, textarea, select {
 
     padding: 0.4rem; /* Innenabstand (10px) */
     background-color: rgba(0, 0, 0, 0.6); /* Halbtransparenter schwarzer Hintergrund */
-  
-    text-align: center; /* Zentriert den Text */
-
+    position: static; /* Standardpositionierung */
    }
 
 .footertext {
     font-size: 0.6rem; /* Größere Schriftgröße */
     color: white; /* Weißer Text */
     margin: 0; /* Entfernt Standardabstand des Absatzes */
-    bottom: 0; /* Positioniert den Footer am unteren Rand */
-    position: static bottom; /* Standardpositionierung */
+    margin-bottom: 0; /* Positioniert den Footer am unteren Rand */
+    text-align: center; /* Zentriert den Text */
+
+    
 
 }
 /*------------------------ELEKTRONIK  -------------------------------------------------*/
