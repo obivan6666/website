@@ -56,7 +56,8 @@ input, button, textarea, select {
     
     color: white; /* Textfarbe für Kontrast */
     font-family: Arial, sans-serif; /* Schriftart */
-
+    width: 100vw; /* Breite des Containers auf 100% der Viewport-Breite setzen */
+    height: 100vh; /* Höhe des Containers auf 100% der Viewport-Höhe setzen */
 }
 
 .hbody {
@@ -66,16 +67,26 @@ input, button, textarea, select {
 .ebody {
     background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+
 }
 .kbody {
-    background: url("bilder/kunst.jpg") no-repeat center center fixed; /* Hintergrundbild für Kunst */
+    background: url("bilder/kunst.jpg") no-repeat center center ; /* Hintergrundbild für Kunst */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+
 }
 .gbody {
     background: url("bilder/wieseOrg.jpg") no-repeat center center ; /* Hintergrundbild für Kunst */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
+.body-links {
+    background: url("bilder/sterne2.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
+    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+}
 
+.body-kontakte {
+    background: url("bilder/spinne.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
+    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+}
 .header {
     text-align: center; /* Zentriert den Text im Header */
     background-color: rgba(0, 0, 0, 0.35); /* Halbtransparenter grauer Hintergrund */
@@ -121,7 +132,9 @@ input, button, textarea, select {
     background-color: #1b5241; /* Hintergrundfarbe beim Hover */
     color: rgb(173, 166, 166); /* Textfarbe beim Hover */
 }
-
+.main {
+ margin-top: 7%;
+}
 
 .hmain {
     background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
@@ -135,7 +148,6 @@ input, button, textarea, select {
 .gmain {
     background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
 }
-
 
 .kategorie {
     background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
