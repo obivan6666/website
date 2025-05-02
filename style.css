@@ -14,6 +14,7 @@ html, body {
 body {
     line-height: 1.5; /* Einheitliche Zeilenhöhe */
     font-family: Arial, sans-serif; /* Standard-Schriftart */
+
 }
 
 img, picture, video, canvas, svg {
@@ -52,6 +53,7 @@ input, button, textarea, select {
 /*-------------------------START-------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------*/
 .body {
+    
     color: white; /* Textfarbe für Kontrast */
     font-family: Arial, sans-serif; /* Schriftart */
 
