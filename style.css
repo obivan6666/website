@@ -303,12 +303,7 @@ input, button, textarea, select {
        /* padding: 0.625rem 0.9375rem; /* Innenabstand: oben/unten 10px, links/rechts 15px */
     }
    
-    .emain {   
-       /* grid-template-columns: 1fr; /* Zwei Spalten mit gleichmäßiger Verteilung */
-    }
-    .gmain {
-     }
-     
+
     .bild {
     width: auto; /* Breite des Bildes */
     height: 5.7em; /* Höhe wird proportional zur Breite angepasst */
