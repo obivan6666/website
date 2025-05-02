@@ -190,7 +190,7 @@ input, button, textarea, select {
     color: white; /* Weißer Text */
     margin: 0; /* Entfernt Standardabstand des Absatzes */
     bottom: 0; /* Positioniert den Footer am unteren Rand */
-    position: static; /* Standardpositionierung */
+    position: static bottom; /* Standardpositionierung */
 
 }
 /*------------------------ELEKTRONIK  -------------------------------------------------*/
