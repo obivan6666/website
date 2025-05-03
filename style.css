@@ -83,7 +83,7 @@ input, button, textarea, select {
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
 
-.body-kontakte {
+.body-kontakt {
     background: url("bilder/spinne.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
