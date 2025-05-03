@@ -188,11 +188,8 @@ input, button, textarea, select {
 }
 
 .footer  {
-  
-
-    padding: 0.4rem; /* Innenabstand (10px) */
     background-color: rgba(0, 0, 0, 0.6); /* Halbtransparenter schwarzer Hintergrund */
-    position: static; /* Standardpositionierung */
+    background-size: cover; /* Standardpositionierung */
    }
 
 .footertext {
