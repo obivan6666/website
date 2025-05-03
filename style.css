@@ -278,22 +278,8 @@ input, button, textarea, select {
 /*-----------------HOCH----------------------------- */
 
 @media (max-width: 768px) and (orientation: portrait) {
-    .hbody {
-       /* width: 100%; /* Bildgröße anpassen */
-    }
-    .ebody {
-    /* width: 80%; /* Bildgröße anpassen */
-    }
-    .kbody {
-     /*   background: url("bilder/kunst2.jpg") no-repeat center center fixed; /* Hintergrundbild für Kunst */
-      /*  background-size: cover; /* Hintergrundbild wird skaliert */
-    }
-    .gbody {
-        background: url("bilder/wieseOrg.jpg") no-repeat right; /* Hintergrundbild für Kunst */
-        background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
-   
 
-    }
+  
     .titel {
        font-size: 2rem; /* Schriftgröße des Titels (32px) */
     }
