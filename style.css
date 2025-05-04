@@ -28,6 +28,7 @@ input, button, textarea, select {
     background-color: transparent;
     text-align: center; /* Zentriert den Text im Header */
     gap: 3%; /* Abstand zwischen den Grid-Items */
+    
 }
 
 .flex-item {
@@ -211,7 +212,7 @@ input, button, textarea, select {
 /*-------------------------------------------------------------------------------------------*/
 
 .projektliste {
-    padding: 1% 10% 1% 10%; /* Zentriert den Main-Bereich horizontal */
+    padding: 5% 10% 20% 10%; /* Zentriert den Main-Bereich horizontal */
 
     gap: 2rem;
 }
