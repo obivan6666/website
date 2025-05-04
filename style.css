@@ -321,14 +321,14 @@ input, button, textarea, select {
     }
    .grid-container {
     grid-template-columns: repeat(1, 1fr); /* Zwei gleich große Spalten */
-    padding-bottom: 20%;
+    padding-bottom: 30%;
    }
 
    .aufteilung {
     padding-top: 5%;
     }
     .projektliste {
-        padding: 5% 0% 0% 0%; /* Zentriert den Main-Bereich horizontal */
+        padding: 5% 5% 20% 5%; /* Zentriert den Main-Bereich horizontal */
         border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
         gap: 2rem;
     }
