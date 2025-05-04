@@ -322,6 +322,10 @@ input, button, textarea, select {
     padding-bottom: 20%;
    }
 
+   .aufteilung {
+    padding-top: 5%;
+    padding-bottom: 20%;
+}
     .bild {
     width: auto; /* Breite des Bildes */
     height: 5.7em; /* Höhe wird proportional zur Breite angepasst */
