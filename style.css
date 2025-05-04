@@ -7,14 +7,9 @@
 
 html, body {
     height: 100%; /* Stellt sicher, dass der Body die volle Höhe einnimmt */
+    width: 100%;
     margin: 0;
     padding: 0;
-}
-
-body {
-    line-height: 1.5; /* Einheitliche Zeilenhöhe */
-    font-family: Arial, sans-serif; /* Standard-Schriftart */
-
 }
 
 img, picture, video, canvas, svg {
@@ -33,7 +28,6 @@ input, button, textarea, select {
     background-color: transparent;
    /* text-align: center; /* Zentriert den Text im Header */
     gap: 3%; /* Abstand zwischen den Grid-Items */
-
 }
 
 .flex-item {
@@ -49,11 +43,35 @@ input, button, textarea, select {
 .flex-column {
     flex-direction: column; /* Elemente vertikal anordnen */
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Zwei gleich große Spalten */
+    grid-template-rows: auto; /* Zwei gleich große Spalten */
+    
+    align-content: center cover;   /* Zentriert das gesamte Grid vertikal */
+    justify-content: center cover; /* Zentriert das gesamte Grid horizontal */
+
+    align-items: center;   /* Zentriert die Items vertikal */
+    justify-items: center; /* Zentriert die Items horizontal */
+
+    gap: 5%;
+    padding-bottom: 10%;
+    background-color: transparent;
+}
+.grid-item { 
+    background-color: transparent; /* Hintergrundfarbe der Grid-Items */
+    border-radius: 0.2rem; /* Abgerundete Ecken (5px) */
+    will-change: transform; /* Optimiert die Performance bei Hover */
+
+}  
+
+   
+   
 
 /*-------------------------START-------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------*/
 .body {
-    
+    line-height: 1.5; /* Einheitliche Zeilenhöhe */
     color: white; /* Textfarbe für Kontrast */
     font-family: Arial, sans-serif; /* Schriftart */
     width: 100vw; /* Breite des Containers auf 100% der Viewport-Breite setzen */
@@ -67,12 +85,10 @@ input, button, textarea, select {
 .ebody {
     background: url("bilder/platiene2.png") no-repeat center center fixed; /* Hintergrundbild mit fester Position */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
-
 }
 .kbody {
     background: url("bilder/kunst.jpg") no-repeat center center ; /* Hintergrundbild für Kunst */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
-
 }
 .gbody {
     background: url("bilder/wieseOrg.jpg") no-repeat center center ; /* Hintergrundbild für Kunst */
@@ -82,11 +98,16 @@ input, button, textarea, select {
     background: url("bilder/sterne2.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
-
 .body-kontakt {
     background: url("bilder/spinne.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
+.body-fadenbild {
+    background: url("bilder/kunst.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
+    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+}
+
+
 .header {
     text-align: center; /* Zentriert den Text im Header */
     background-color: rgba(0, 0, 0, 0.35); /* Halbtransparenter grauer Hintergrund */
@@ -94,11 +115,9 @@ input, button, textarea, select {
 }
 .eheader {
     background-color: rgba(22, 47, 24, 0.35); /* Halbtransparenter grauer Hintergrund */
-
 }
 .gheader {
     background-color: rgba(16, 56, 32, 0.35); /* Halbtransparenter grauer Hintergrund */
-  
 }
 .titel {
     font-family: 'Courier New', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif; /* Schriftart */
@@ -133,7 +152,8 @@ input, button, textarea, select {
     color: rgb(173, 166, 166); /* Textfarbe beim Hover */
 }
 .main {
- margin-top: 7%;
+   
+
 }
 
 .hmain {
@@ -148,7 +168,9 @@ input, button, textarea, select {
 .gmain {
     background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
 }
-
+.aufteilung {
+    padding-top: 5%;
+}
 .kategorie {
     background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
     margin-bottom: 7%;
@@ -160,14 +182,13 @@ input, button, textarea, select {
     width: auto; /* Breite des Bildes */
     height: 10em; /* Höhe wird proportional zur Breite angepasst */
     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
-
-    
-
 }
 .bild:hover {
     transform: scale(1.05); /* Vergrößert das Bild beim Hover */
     transition: transform 0.3s ease; /* Sanfte Übergangsanimation */
 }
+
+
 .link {
     text-align: center; /* Zentriert den Text */
     width: 25%; /* Breite des Bildes */
@@ -187,29 +208,14 @@ input, button, textarea, select {
     color: rgb(72, 46, 6); /* Textfarbe beim Hover */
 }
 
-.footer  {
-    background-color: rgba(0, 0, 0, 0.6); /* Halbtransparenter schwarzer Hintergrund */
-    background-size: cover; /* Standardpositionierung */
-   }
 
-.footertext {
-    font-size: 0.6rem; /* Größere Schriftgröße */
-    color: white; /* Weißer Text */
-    margin: 0; /* Entfernt Standardabstand des Absatzes */
-    margin-bottom: 0; /* Positioniert den Footer am unteren Rand */
-    text-align: center; /* Zentriert den Text */
 
-    
-
-}
-/*------------------------ELEKTRONIK  -------------------------------------------------*/
+/*------------------------PROJEKTE   -------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------*/
 
 .projektliste {
-    margin-left: 10%; /* Zentriert den Main-Bereich horizontal */
-    margin-right: 10%; /* Abstand links und rechts */
-    margin-top: 1rem; /* Abstand nach oben (2px) */
-    padding: 0.625rem; /* Innenabstand (10px) */
+    padding: 1% 10% 1% 10%; /* Zentriert den Main-Bereich horizontal */
+
     gap: 2rem;
 }
 
@@ -268,10 +274,37 @@ input, button, textarea, select {
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
 
+
+    
+/*-------------------------BILDER-------------------------------------------------*/
+
+
+.fadenbild {
+    width: auto;
+    height:  10em; /* Höhe wird proportional zur Breite angepasst */
+}
+.fadenbild:hover {
+    transform: scale(1.5); /* Vergrößert das Bild beim Hover */
+    transition: transform 0.3s ease; /* Sanfte Übergangsanimation */
 }
 
 
+/*-------------------------FOOTER--------------------------------------------------*/
 
+
+}.footer  {
+    background-color: rgba(0, 0, 0, 0.6); /* Halbtransparenter schwarzer Hintergrund */
+    margin: 0; /* Entfernt Standardabstand des Absatzes */
+    margin-bottom: 0; /* Positioniert den Footer am unteren Rand */    background-size: cover; /* Standardpositionierung */
+  
+}
+   
+.footertext {
+    font-size: 1rem; /* Größere Schriftgröße */
+    color: white; /* Weißer Text */
+    padding: 1%;
+    text-align: center; /* Zentriert den Text */
+}
 /*-----------------HOCH----------------------------- */
 
 @media (max-width: 768px) and (orientation: portrait) {
@@ -285,7 +318,9 @@ input, button, textarea, select {
      font-size: 1rem; /* Schriftgröße der Navigationslinks (16px) */
        /* padding: 0.625rem 0.9375rem; /* Innenabstand: oben/unten 10px, links/rechts 15px */
     }
-   
+   .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* Zwei gleich große Spalten */
+   }
 
     .bild {
     width: auto; /* Breite des Bildes */
