@@ -37,6 +37,21 @@
           <button type="submit">Absenden</button>
         </form>
       </div>
+
+      <!-- Nachrichten anzeigen -->
+      <div class="flex-container flex-column nachrichten">
+        <h2>Nachrichten</h2>
+        <?php
+        // Nachrichten aus der Datei auslesen und anzeigen
+        $file = 'messages.txt';
+        if (file_exists($file)) {
+            $messages = file_get_contents($file);
+            echo nl2br(htmlspecialchars($messages));
+        } else {
+            echo "<p>Es sind noch keine Nachrichten vorhanden.</p>";
+        }
+        ?>
+      </div>
     </div>  
   </main>
   
