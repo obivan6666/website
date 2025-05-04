@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elektronik Arduino</title>
+  <title>Fadenbilder</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="body ebody">
+<body class="body body-fadenbild">
   <header class="header">
     <h1 class="titel">Fadenbilder</h1>
     <div class=" flex-container flex-row nav">      
@@ -17,29 +17,31 @@
     </div>
   </header>
 
-  <main class="main kmain">
-    <div class="flex-container flex-column projektliste ">        
+  <main class="main main-fadenbild">
+    <div class="flex-container flex-column projektliste">        
       <div class="vorcontainer">
         <h2 class="vortext">          
-          
+          Fadenbilder, fäden werden in geometrischen formen auf ein blatt genäht.<br>
+          dabei entstehen  3d änliche effekte.
         </h2>
-      </div>         
-      <div class="flex-container flex-row projekt">
-        <a class="flex-item projektlink" >..</a>
-        <div class="flex-item projekttext">...</div>
-      </div>
-      <div class="flex-container flex-row projekt">
-        <a class="flex-item projektlink" >...</a>
-        <div class="flex-item projekttext">...</div>
-      </div>
-      <div class="flex-container flex-row projekt">
-        <a class="flex-item projektlink" >--------</a>
-        <div class="flex-item projekttext">---------</div>
-      </div>              
+      </div>  
+    </div>     
+    <div class="grid-container bild-container">
+      <img class="grid-item fadenbild" src="bilder/fadenbild 1.jpg" alt="Elektronik Icon">
+      <img class="grid-item fadenbild" src="bilder/fadenbild 2.jpg" alt="Elektronik Icon">
+      <img class="grid-item fadenbild" src="bilder/fadenbild 3.jpg" alt="Elektronik Icon">
+      <img class="grid-item fadenbild" src="bilder/fadenbild 4.jpg" alt="Elektronik Icon">
+      <img class="grid-item fadenbild" src="bilder/fadenbild 5.jpg" alt="Elektronik Icon"> 
+      <img class="grid-item fadenbild" src="bilder/neonstern.jpg" alt="Elektronik Icon"> 
+      <img class="grid-item fadenbild" src="bilder/faden3d 2.jpg" alt="Elektronik Icon"> 
+      <img class="grid-item fadenbild" src="bilder/faden3d 1.jpg" alt="Elektronik Icon"> 
     </div>
   </main>
   <footer class="footer">
-    <p class="footertext">&copy; 2025 Obivans Projekte. Alle Rechte vorbehalten.</p>
+    <p class="footertext">&copy; <span id="currentYear"></span> Obivans Projekte. Alle Rechte vorbehalten.</p>
+    <script>
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
   </footer>
 </body>
 </html>
