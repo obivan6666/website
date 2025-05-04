@@ -24,7 +24,7 @@ input, button, textarea, select {
 
 .flex-container {
     display: flex;
-    justify-content: center cover; /* Zentriert die Fächer horizontal */
+    justify-content: center; /* Zentriert die Fächer horizontal */
     background-color: transparent;
    /* text-align: center; /* Zentriert den Text im Header */
     gap: 3%; /* Abstand zwischen den Grid-Items */
@@ -151,10 +151,7 @@ input, button, textarea, select {
     background-color: #1b5241; /* Hintergrundfarbe beim Hover */
     color: rgb(173, 166, 166); /* Textfarbe beim Hover */
 }
-.main {
-   
 
-}
 
 .hmain {
     background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
@@ -322,6 +319,7 @@ input, button, textarea, select {
     }
    .grid-container {
     grid-template-columns: repeat(2, 1fr); /* Zwei gleich große Spalten */
+    padding-bottom: 20%;
    }
 
     .bild {
