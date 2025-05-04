@@ -320,7 +320,7 @@ input, button, textarea, select {
     }
    .grid-container {
     grid-template-columns: repeat(1, 1fr); /* Zwei gleich große Spalten */
-    padding-bottom: 30%;
+  
    }
 
    .aufteilung {
