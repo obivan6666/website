@@ -153,17 +153,9 @@ input, button, textarea, select {
 }
 
 
-.hmain {
+.main {
     background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
-}
-.emain {
-    background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
-}
-.kmain {    
-    background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
-}
-.gmain {
-    background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
+    padding-bottom: 10%; /* Abstand nach unten (10%) */
 }
 .aufteilung {
     padding-top: 5%;
@@ -326,11 +318,7 @@ input, button, textarea, select {
    .aufteilung {
     padding-top: 5%;
     }
-    .projektliste {
-        padding: 5% 5% 20% 5%; /* Zentriert den Main-Bereich horizontal */
-        border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
-        gap: 2rem;
-    }
+ 
 
     .bild {
     width: auto; /* Breite des Bildes */
@@ -350,4 +338,8 @@ input, button, textarea, select {
         background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 
     }
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr); /* Zwei gleich große Spalten */
+        padding-bottom: 10%;
+       }
 }
