@@ -26,7 +26,7 @@ input, button, textarea, select {
     display: flex;
     justify-content: center; /* Zentriert die Fächer horizontal */
     background-color: transparent;
-   /* text-align: center; /* Zentriert den Text im Header */
+    text-align: center; /* Zentriert den Text im Header */
     gap: 3%; /* Abstand zwischen den Grid-Items */
 }
 
