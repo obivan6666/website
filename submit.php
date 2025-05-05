@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     file_put_contents($file, $entry, FILE_APPEND);
 
     // Zurück zur Kontaktseite
-    header('Location: kontakt.php');
+    header('Location: kontakt.html');
     exit();
 }
 ?>
