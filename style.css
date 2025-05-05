@@ -211,7 +211,7 @@ input, button, textarea, select {
     padding: 5% 10% 20% 10%; /* Zentriert den Main-Bereich horizontal */
     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
     gap: 2rem;
-    margin-bottom: 0%;
+    margin-bottom: 30%;
 }
 
 .vorcontainer {
