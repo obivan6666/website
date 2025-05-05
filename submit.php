@@ -1,16 +1,16 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+// filepath: c:\xampp\htdocs\website\submit.php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = htmlspecialchars($_POST['name']);
     $message = htmlspecialchars($_POST['message']);
+    $entry = "Name: $name\nNachricht: $message\n---\n";
 
-    // Nachricht in einer Datei speichern
+    // Nachricht in messages.txt speichern
     $file = 'messages.txt';
-    $current = file_get_contents($file);
-    $current .= "Name: $name\nNachricht: $message\n\n";
-    file_put_contents($file, $current);
+    file_put_contents($file, $entry, FILE_APPEND);
 
-    // Zurück zur Kontaktseite weiterleiten
-    header("Location: kontakt.html");
+    // Zurück zur Kontaktseite
+    header('Location: kontakt.php');
     exit();
 }
 ?>
