@@ -49,10 +49,10 @@ input, button, textarea, select {
     grid-template-columns: repeat(1, 1fr); /* Zwei gleich große Spalten */
     grid-template-rows: auto; /* Zwei gleich große Spalten */
     
-    align-content: center cover;   /* Zentriert das gesamte Grid vertikal */
-    justify-content: center cover; /* Zentriert das gesamte Grid horizontal */
+    /* align-content: center cover;   /* Zentriert das gesamte Grid vertikal */
+    /*  justify-content: center ; /* Zentriert das gesamte Grid horizontal */
 
-    align-items: center;   /* Zentriert die Items vertikal */
+    /*align-items: top;   /* Zentriert die Items vertikal */
     justify-items: center; /* Zentriert die Items horizontal */
 
     gap: 2%;
@@ -208,27 +208,27 @@ input, button, textarea, select {
 /*-------------------------------------------------------------------------------------------*/
 
 .projektliste {
-    padding: 5% 10% 20% 10%; /* Zentriert den Main-Bereich horizontal */
+   /* padding: 5% 10% 20% 10%; /* Zentriert den Main-Bereich horizontal */
     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
     gap: 2rem;
-    margin-bottom: 30%;
+   /*margin-bottom: 30%;*/
+
 }
 
 .vorcontainer {
-    padding: 1.25rem; /* Innenabstand für den Header (20px) */
     font-family: Courier, monospace; /* Schriftart für den Header */
     background-color: rgba(35, 125, 29, 0.35); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
-    margin: 2% 13% 3% 13% ; /* Abstand links */
+    margin-left: 8%;
+    margin-right: 8%;
 }
-
 .vortext {
     color: rgb(223, 239, 204); /* Textfarbe weiß */
     font-size: 0.9rem; /* Schriftgröße des Titels (12.8px) */
-  /* display: inline-block; /* Blockelement mit Inline-Verhalten */
+    font-weight: bold; /* Fettgedruckter Text */
+    /*display: inline-block; /* Blockelement mit Inline-Verhalten */
     text-align: center; /* Zentriert den Text im Header */
-                   
 }
 
 
@@ -280,8 +280,10 @@ input, button, textarea, select {
     padding: 2%;
 }
 .fadenbild:hover {
-    transform: scale(1.5); /* Vergrößert das Bild beim Hover */
+    transform: scale(4); /* Vergrößert das Bild beim Hover */
     transition: transform 0.3s ease; /* Sanfte Übergangsanimation */
+    position: relative; /* Hebt das Bild aus dem normalen Layoutfluss */
+    z-index: 10; /* Setzt das Bild in den Vordergrund */
 }
 
 
@@ -316,7 +318,6 @@ input, button, textarea, select {
        /* padding: 0.625rem 0.9375rem; /* Innenabstand: oben/unten 10px, links/rechts 15px */
     }
    .grid-container {
-    grid-template-columns: repeat(1, 1fr); /* Zwei gleich große Spalten */
     padding-bottom: 30%;
    }
 
@@ -329,7 +330,10 @@ input, button, textarea, select {
     width: auto; /* Breite des Bildes */
     height: 5.7em; /* Höhe wird proportional zur Breite angepasst */
     }
-   
+    .fadenbild:hover {
+        transform: scale(2); /* Vergrößert das Bild beim Hover */
+    }
+    
 } 
 /*-----------------QUER----------------------------- */
 @media (max-width: 768px) and (orientation: landscape) {
@@ -343,8 +347,9 @@ input, button, textarea, select {
         background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 
     }
-    .grid-container {
-        grid-template-columns: repeat(1, 1fr); /* Zwei gleich große Spalten */
-        padding-bottom: 10%;
-       }
+
+       
+       .fadenbild:hover {
+        transform: scale(2); /* Vergrößert das Bild beim Hover */
+    } 
 }
