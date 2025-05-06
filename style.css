@@ -46,7 +46,7 @@ input, button, textarea, select {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Zwei gleich große Spalten */
+    grid-template-columns: repeat(1, 1fr); /* Zwei gleich große Spalten */
     grid-template-rows: auto; /* Zwei gleich große Spalten */
     
     align-content: center cover;   /* Zentriert das gesamte Grid vertikal */
