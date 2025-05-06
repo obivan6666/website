@@ -94,6 +94,10 @@ input, button, textarea, select {
     background: url("bilder/wieseOrg.jpg") no-repeat center center fixed; /* Hintergrundbild für Kunst */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
+.sbody {
+    background: url("bilder/stein.jpg") no-repeat center center fixed; /* Hintergrundbild für Kunst */
+    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+}
 .body-links {
     background: url("bilder/sterne2.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
@@ -151,7 +155,6 @@ input, button, textarea, select {
     background-color: #1b5241; /* Hintergrundfarbe beim Hover */
     color: rgb(173, 166, 166); /* Textfarbe beim Hover */
 }
-
 
 .main {
     background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
@@ -222,6 +225,7 @@ input, button, textarea, select {
     padding: 0.625rem; /* Innenabstand (10px) */
     margin-left: 8%;
     margin-right: 8%;
+    margin-top: 3%;
 }
 .vortext {
     color: rgb(223, 239, 204); /* Textfarbe weiß */
@@ -278,6 +282,8 @@ input, button, textarea, select {
     width: auto;
     height:  10em; /* Höhe wird proportional zur Breite angepasst */
     padding: 2%;
+    transition: transform 0.3s ease, z-index 0.3s ease; /* Sanfte Übergangsanimation */
+
 }
 .fadenbild:hover {
     transform: scale(4); /* Vergrößert das Bild beim Hover */
