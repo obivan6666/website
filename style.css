@@ -20,7 +20,8 @@ img, picture, video, canvas, svg {
 input, button, textarea, select {
     font: inherit; /* Verwendet die Schriftart des Eltern-Elements */
 }
-
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++FESTE  CONTAINER+++++++++++++++++++++++++++++++++++++++++++++++*/
 
 .flex-container {
     display: flex;
@@ -30,20 +31,32 @@ input, button, textarea, select {
     gap: 3%; /* Abstand zwischen den Grid-Items */
     
 }
-
+.flex-row {
+    flex-direction: row; /* Standard: Elemente horizontal anordnen */
+}
+.flex-column {
+    flex-direction: column; /* Elemente vertikal anordnen */
+}
 .flex-item {
    background-color: transparent;
     text-align: center;
 }
-
-/* Flex Direction */
-.flex-row {
-    flex-direction: row; /* Standard: Elemente horizontal anordnen */
+.cont_main {
+    /* padding: 5% 10% 20% 10%; /* Zentriert den Main-Bereich horizontal */
+     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
+     gap: 10rem;
+    /*margin-bottom: 30%;*/
+ 
+ }
+.cont_reihe {
+    margin-left: 5%; /* Zentriert den Main-Bereich horizontal */
+    border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
+    font-family: Courier, monospace; /* Schriftart für den Header */
+  
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+    align-items: center; /* Zentriert den Inhalt vertikal */
 }
 
-.flex-column {
-    flex-direction: column; /* Elemente vertikal anordnen */
-}
 .grid-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr); /* Zwei gleich große Spalten */
@@ -69,7 +82,7 @@ input, button, textarea, select {
    
 
 /*-------------------------START-------------------------------------------------*/
-/*-------------------------------------------------------------------------------------------*/
+/*--------------BODY-----------------HEADER------------------------------------------------*/
 .body {
     line-height: 1.5; /* Einheitliche Zeilenhöhe */
     color: white; /* Textfarbe für Kontrast */
@@ -116,6 +129,8 @@ input, button, textarea, select {
     text-align: center; /* Zentriert den Text im Header */
     background-color: rgba(0, 0, 0, 0.35); /* Halbtransparenter grauer Hintergrund */
     padding-top: 3%; /* Abstand nach oben (10%) */
+    padding-bottom: 3%; /* Abstand nach unten (10%) */
+    margin-bottom: 5%;
 }
 .eheader {
     background-color: rgba(22, 47, 24, 0.35); /* Halbtransparenter grauer Hintergrund */
@@ -128,20 +143,20 @@ input, button, textarea, select {
     font-size: 4rem; /* Schriftgröße des Titels (32px) */
     letter-spacing: 0.3rem; /* Abstand zwischen Buchstaben (5px) */
     background-color: rgba(5, 2, 27, 0.4); /* Halbtransparenter grauer Hintergrund */
-    margin: 2% 15% 3% 15% ; /* Abstand links */
+    margin: 0% 10% 3% 10% ; /* Abstand links */
     border-radius:0.3rem ;
     box-shadow: 0 0 0.7rem rgba(155, 155, 155, 1); /* Schatteneffekt (7px) */
 
 }
 
-.nav {
+.navigation {
     gap: 8%; /* Abstand zwischen den Fächern */
 
 
 }
 
-.nava {
-    font-size: 1.5em; /* Schriftgröße der Navigationslinks (16px) */
+.navigation_link {
+    font-size: 1.5em; /* Schriftgröße der navigationigationslinks (16px) */
     color: #1ed098; /* Textfarbe */
     text-decoration: none; /* Entfernt die Unterstreichung */
     background-color: rgba(6, 6, 6, 0.45); /* Halbtransparenter schwarzer Hintergrund */
@@ -151,10 +166,14 @@ input, button, textarea, select {
     font-weight: bold; /* Fettgedruckter Text */
 }
 
-.nava:hover {
+.navigation_link:hover {
     background-color: #1b5241; /* Hintergrundfarbe beim Hover */
     color: rgb(173, 166, 166); /* Textfarbe beim Hover */
 }
+
+
+/****************************************************************************************/
+/*-------------------------MAIN-------------------------------------------------*/
 
 .main {
     background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
@@ -163,10 +182,12 @@ input, button, textarea, select {
 .main-fadenbild {
     padding-bottom: 20%; /* Abstand nach unten (10%) */
 }
-.aufteilung {
-    padding-top: 5%;
-
+.main-kontakt {
+    padding-bottom: 20%; /* Abstand nach unten (10%) */
 }
+/*-------------------------CONTAINER-------------------------------------------------*/
+
+
 .kategorie {
     background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
     padding-bottom: 10%; /* Abstand nach unten (10%)*/
@@ -174,16 +195,6 @@ input, button, textarea, select {
     align-items: center; /* Zentriert den Inhalt vertikal */
 }
 
-.bild {
-    width: auto; /* Breite des Bildes */
-    height: 10em; /* Höhe wird proportional zur Breite angepasst */
-    border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
-    padding: 2%;
-}
-.bild:hover {
-    transform: scale(1.05); /* Vergrößert das Bild beim Hover */
-    transition: transform 0.3s ease; /* Sanfte Übergangsanimation */
-}
 
 
 .link {
@@ -207,27 +218,21 @@ input, button, textarea, select {
 
 
 
-/*------------------------PROJEKTE   -------------------------------------------------*/
+/*------------------------TEXT  -------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------*/
 
-.projektliste {
-   /* padding: 5% 10% 20% 10%; /* Zentriert den Main-Bereich horizontal */
-    border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
-    gap: 2rem;
-   /*margin-bottom: 30%;*/
 
-}
 
-.vorcontainer {
+.cont_text {
     font-family: Courier, monospace; /* Schriftart für den Header */
-    background-color: rgba(35, 125, 29, 0.35); /* Halbtransparenter grauer Hintergrund */
+    background-color: rgba(10, 33, 8, 0.4); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 0.625rem; /* Innenabstand (10px) */
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 3%;
 }
-.vortext {
+.text {
     color: rgb(223, 239, 204); /* Textfarbe weiß */
     font-size: 0.9rem; /* Schriftgröße des Titels (12.8px) */
     font-weight: bold; /* Fettgedruckter Text */
@@ -236,15 +241,16 @@ input, button, textarea, select {
 }
 
 
+.projekttext {
+   /* width: 60%;*/
+    color: rgb(255, 255, 255); /* Textfarbe weiß */
+    font-size: 0.9rem; /* Schriftgröße des Titels */
+    background-color: rgba(35, 125, 29, 0.35 ); /* Halbtransparenter grauer Hintergrund */
+    border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
+    padding: 0.625rem; /* Innenabstand (10px) */
 
-.projekt {
-    margin-left: 5%; /* Zentriert den Main-Bereich horizontal */
-    border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
-    font-family: Courier, monospace; /* Schriftart für den Header */
-  
-    justify-content: center; /* Zentriert den Inhalt horizontal */
-    align-items: center; /* Zentriert den Inhalt vertikal */
 }
+/*-------------------------LINK-------------------------------------------------*/
 
 .projektlink {
     width: 40%;
@@ -264,18 +270,36 @@ input, button, textarea, select {
     background-color: #55e669; /* Hintergrundfarbe beim Hover */
     color: rgb(19, 43, 19); /* Textfarbe beim Hover */
 }
+.link {
+    text-align: center; /* Zentriert den Text */
+    width: 25%; /* Breite des Bildes */
 
-.projekttext {
-   /* width: 60%;*/
-    color: rgb(255, 255, 255); /* Textfarbe weiß */
-    font-size: 0.9rem; /* Schriftgröße des Titels */
-    background-color: rgba(35, 125, 29, 0.35 ); /* Halbtransparenter grauer Hintergrund */
+    font-weight: bold; /* Fettgedruckter Text */
+    color: rgb(227, 209, 120); /* Textfarbe */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    background-color: rgba(6, 6, 6, 0.8); /* Halbtransparenter schwarzer Hintergrund */
+    box-shadow: 0 0 1.5625rem rgb(240, 229, 229); /* Schatteneffekt (25px) */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
-    padding: 0.625rem; /* Innenabstand (10px) */
+    padding: 0.3em;
+    margin: 3em 0.3em 3em 1em; /* Abstand links */
+}
 
+.link:hover {
+    background-color: #94c7d1; /* Hintergrundfarbe beim Hover */
+    color: rgb(72, 46, 6); /* Textfarbe beim Hover */
 }
     
 /*-------------------------BILDER-------------------------------------------------*/
+.bild {
+    width: auto; /* Breite des Bildes */
+    height: 10em; /* Höhe wird proportional zur Breite angepasst */
+    border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
+    padding: 2%;
+}
+.bild:hover {
+    transform: scale(1.05); /* Vergrößert das Bild beim Hover */
+    transition: transform 0.3s ease; /* Sanfte Übergangsanimation */
+}
 
 
 .fadenbild {
@@ -318,16 +342,16 @@ input, button, textarea, select {
     .titel {
        font-size: 2rem; /* Schriftgröße des Titels (32px) */
     }
-    .nava {
+    .navigation_link {
       
-     font-size: 1rem; /* Schriftgröße der Navigationslinks (16px) */
+     font-size: 1rem; /* Schriftgröße der navigationigationslinks (16px) */
        /* padding: 0.625rem 0.9375rem; /* Innenabstand: oben/unten 10px, links/rechts 15px */
     }
    .grid-container {
     padding-bottom: 30%;
    }
 
-   .aufteilung {
+   .cont_main{
     padding-top: 5%;
     }
  
