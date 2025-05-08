@@ -28,7 +28,7 @@ input, button, textarea, select {
     justify-content: center; /* Zentriert die Fächer horizontal */
     background-color: transparent;
     text-align: center; /* Zentriert den Text im Header */
-    gap: 3%; /* Abstand zwischen den Grid-Items */
+   /* gap: 3%; /* Abstand zwischen den Grid-Items */
     
 }
 .flex-row {
@@ -44,17 +44,21 @@ input, button, textarea, select {
 .cont_main {
     /* padding: 5% 10% 20% 10%; /* Zentriert den Main-Bereich horizontal */
      border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
-     gap: 10rem;
-    /*margin-bottom: 30%;*/
- 
+     gap: 4rem;
+ }
+ .cont_hmain {
+     margin-top: 10%;
+     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
+     gap: 9rem;
  }
 .cont_reihe {
     margin-left: 5%; /* Zentriert den Main-Bereich horizontal */
     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
     font-family: Courier, monospace; /* Schriftart für den Header */
-  
     justify-content: center; /* Zentriert den Inhalt horizontal */
     align-items: center; /* Zentriert den Inhalt vertikal */
+    background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
+
 }
 
 .grid-container {
@@ -130,7 +134,7 @@ input, button, textarea, select {
     background-color: rgba(0, 0, 0, 0.35); /* Halbtransparenter grauer Hintergrund */
     padding-top: 3%; /* Abstand nach oben (10%) */
     padding-bottom: 3%; /* Abstand nach unten (10%) */
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 .eheader {
     background-color: rgba(22, 47, 24, 0.35); /* Halbtransparenter grauer Hintergrund */
@@ -154,7 +158,6 @@ input, button, textarea, select {
 
 
 }
-
 .navigation_link {
     font-size: 1.5em; /* Schriftgröße der navigationigationslinks (16px) */
     color: #1ed098; /* Textfarbe */
@@ -165,7 +168,6 @@ input, button, textarea, select {
     box-shadow: 0 0 0.4375rem rgba(155, 155, 155, 1); /* Schatteneffekt (7px) */
     font-weight: bold; /* Fettgedruckter Text */
 }
-
 .navigation_link:hover {
     background-color: #1b5241; /* Hintergrundfarbe beim Hover */
     color: rgb(173, 166, 166); /* Textfarbe beim Hover */
@@ -185,36 +187,17 @@ input, button, textarea, select {
 .main-kontakt {
     padding-bottom: 20%; /* Abstand nach unten (10%) */
 }
-/*-------------------------CONTAINER-------------------------------------------------*/
 
+/*-------------------------CONTAINER-------------------------------------------------*/
 
 .kategorie {
     background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
-    padding-bottom: 10%; /* Abstand nach unten (10%)*/
+
     justify-content: center; /* Zentriert den Inhalt horizontal */
     align-items: center; /* Zentriert den Inhalt vertikal */
 }
 
 
-
-.link {
-    text-align: center; /* Zentriert den Text */
-    width: 25%; /* Breite des Bildes */
-
-    font-weight: bold; /* Fettgedruckter Text */
-    color: rgb(227, 209, 120); /* Textfarbe */
-    text-decoration: none; /* Entfernt die Unterstreichung */
-    background-color: rgba(6, 6, 6, 0.8); /* Halbtransparenter schwarzer Hintergrund */
-    box-shadow: 0 0 1.5625rem rgb(240, 229, 229); /* Schatteneffekt (25px) */
-    border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
-    padding: 0.3em;
-    margin: 3em 0.3em 3em 1em; /* Abstand links */
-}
-
-.link:hover {
-    background-color: #94c7d1; /* Hintergrundfarbe beim Hover */
-    color: rgb(72, 46, 6); /* Textfarbe beim Hover */
-}
 
 
 
@@ -237,22 +220,16 @@ input, button, textarea, select {
     font-size: 0.9rem; /* Schriftgröße des Titels (12.8px) */
     font-weight: bold; /* Fettgedruckter Text */
     /*display: inline-block; /* Blockelement mit Inline-Verhalten */
-    text-align: center; /* Zentriert den Text im Header */
-}
-
-
-.projekttext {
-   /* width: 60%;*/
-    color: rgb(255, 255, 255); /* Textfarbe weiß */
-    font-size: 0.9rem; /* Schriftgröße des Titels */
+    text-align: center; /* Zentriert den Text im Header */    
     background-color: rgba(35, 125, 29, 0.35 ); /* Halbtransparenter grauer Hintergrund */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
-    padding: 0.625rem; /* Innenabstand (10px) */
 
 }
+
+
 /*-------------------------LINK-------------------------------------------------*/
 
-.projektlink {
+.projektlink {      /* fest */
     width: 40%;
     font-size: 1.1rem; /* Schriftgröße */
     font-weight: bold; /* Fettgedruckter Text */
@@ -262,15 +239,14 @@ input, button, textarea, select {
     box-shadow: 0 0 1.5625rem rgb(241, 237, 237); /* Schatteneffekt (25px) */
     border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
     padding: 1%; /* Innenabstand: oben/unten 10px, links/rechts 15px */
-
-
 }
-
 .projektlink:hover {
     background-color: #55e669; /* Hintergrundfarbe beim Hover */
     color: rgb(19, 43, 19); /* Textfarbe beim Hover */
 }
-.link {
+
+
+.link {           /* flexibel */
     text-align: center; /* Zentriert den Text */
     width: 25%; /* Breite des Bildes */
 
@@ -289,12 +265,15 @@ input, button, textarea, select {
     color: rgb(72, 46, 6); /* Textfarbe beim Hover */
 }
     
+
 /*-------------------------BILDER-------------------------------------------------*/
+
 .bild {
     width: auto; /* Breite des Bildes */
     height: 10em; /* Höhe wird proportional zur Breite angepasst */
     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
-    padding: 2%;
+    transition: transform 0.3s ease, z-index 0.3s ease; /* Sanfte Übergangsanimation */
+
 }
 .bild:hover {
     transform: scale(1.05); /* Vergrößert das Bild beim Hover */
