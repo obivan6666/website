@@ -127,7 +127,10 @@ input, button, textarea, select {
     background: url("bilder/kunst.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
     background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
 }
-
+.body-mikroskop {
+    background: url("bilder/wolken.jpg") no-repeat center center fixed; /* Hintergrundbild zentriert und fixiert */
+    background-size: cover; /* Hintergrundbild wird skaliert, um den gesamten Bereich abzudecken */
+}
 
 .header {
     text-align: center; /* Zentriert den Text im Header */
