@@ -47,7 +47,10 @@
   </main>
   
   <footer class="footer">
-    <p class="footertext">&copy; 2025 Obivans Projekte. Alle Rechte vorbehalten.</p>
+    <p class="footertext">&copy; <span id="currentYear"></span> Obivans Projekte. Alle Rechte vorbehalten.</p>
+    <script>
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
   </footer>
 </body>
 </html>
