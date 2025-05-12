@@ -1,6 +1,6 @@
 <?php
 // filepath: c:\xamppServer\htdocs\website\load_messages.php
-<?php
+
 // Nachrichten aus der Datei auslesen und anzeigen
 $file = 'messages.txt';
 if (file_exists($file)) {
