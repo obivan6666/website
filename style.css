@@ -49,8 +49,8 @@ input, button, textarea, select {
  .cont_hmain {
      margin-top: 10%;
      border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
-     gap: 9rem;
- }
+     gap: 10rem;
+}
 .cont_reihe {
     margin-left: 5%; /* Zentriert den Main-Bereich horizontal */
     border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
@@ -336,7 +336,11 @@ input, button, textarea, select {
    .cont_main{
     padding-top: 5%;
     }
- 
+     .cont_hmain {
+     margin-top: 5%;
+
+     gap: 5rem;
+}
 
     .bild {
     width: auto; /* Breite des Bildes */
