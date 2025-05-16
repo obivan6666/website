@@ -49,7 +49,7 @@ input, button, textarea, select {
  .cont_hmain {
      margin-top: 10%;
      border-radius: 0.3125rem; /* Abgerundete Ecken (5px) */
-     gap: 10rem;
+     gap: 6rem;
 }
 .cont_reihe {
     margin-left: 5%; /* Zentriert den Main-Bereich horizontal */
@@ -58,7 +58,7 @@ input, button, textarea, select {
     justify-content: center; /* Zentriert den Inhalt horizontal */
     align-items: center; /* Zentriert den Inhalt vertikal */
     background-color: transparent; /* Halbtransparenter schwarzer Hintergrund */
-
+    gap: 1rem;
 }
 
 .grid-container {
@@ -259,7 +259,7 @@ input, button, textarea, select {
     background-color: rgba(6, 6, 6, 0.8); /* Halbtransparenter schwarzer Hintergrund */
     box-shadow: 0 0 1.5625rem rgb(240, 229, 229); /* Schatteneffekt (25px) */
     border-radius: 0.6rem; /* Abgerundete Ecken (10px) */
-    padding: 1em;
+    padding: 0.8em;
     margin: 3em 0.3em 3em 1em; /* Abstand links */
 }
 
