@@ -251,15 +251,15 @@ input, button, textarea, select {
 
 .link {           /* flexibel */
     text-align: center; /* Zentriert den Text */
-    width: 25%; /* Breite des Bildes */
-
+    width: auto; /* Breite des Bildes */
+    height: auto;
     font-weight: bold; /* Fettgedruckter Text */
     color: rgb(227, 209, 120); /* Textfarbe */
     text-decoration: none; /* Entfernt die Unterstreichung */
     background-color: rgba(6, 6, 6, 0.8); /* Halbtransparenter schwarzer Hintergrund */
     box-shadow: 0 0 1.5625rem rgb(240, 229, 229); /* Schatteneffekt (25px) */
-    border-radius: 0.625rem; /* Abgerundete Ecken (10px) */
-    padding: 0.3em;
+    border-radius: 0.6rem; /* Abgerundete Ecken (10px) */
+    padding: 1em;
     margin: 3em 0.3em 3em 1em; /* Abstand links */
 }
 
